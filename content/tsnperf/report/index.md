@@ -1,0 +1,15 @@
+---
+title: ☀ 某品牌交换机报告
+summary: TSNPerf 使用网卡硬件时间戳功能达到纳秒级抖动
+date: 2024-05-01
+authors:
+  - admin
+tags:
+  - TSNPerf
+  - ZIGGO
+  - Markdown
+image:
+  caption: "TBD"
+---
+
+详细报告请查看[这里](/tsnperf/report/switch_report.pdf)。

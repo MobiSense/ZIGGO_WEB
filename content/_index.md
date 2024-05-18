@@ -11,14 +11,15 @@ sections:
   - block: hero
     content:
       title: ZIGGO TSN Platform
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
+      #text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
+      text: A flexible, standard-compliant, and control-function-virtualized TSN switch platform ready for industrial control, automotive electronics, and other time-sensitive applications.
       primary_action:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-        icon: rocket-launch
+        text: Github
+        url: https://github.com/MobiSense/ZIGGO_WEB/
+        icon: brands/github
       secondary_action:
         text: Read the docs
-        url: https://docs.hugoblox.com
+        url: /tsnperf/
       announcement:
         text: "Our ZIGGO has already iterated to version 2.0 !!!"
         # link:
@@ -34,7 +35,7 @@ sections:
         color: "navy"
         image:
           # Add your image background to `assets/media/`.
-          filename: bg-triangles.svg
+          filename: bg.jpg
           filters:
             brightness: 0.5
   - block: stats
@@ -86,7 +87,7 @@ sections:
     id: products
     content:
       items:
-        - title: ZIGGO TSNPerf
+        - title: <a href="/tsnperf/"> ZIGGO TSNPerf </a>
           text: As easy as 1, 2, 3!
           feature_icon: check
           features:
@@ -96,9 +97,9 @@ sections:
           # Upload image to `assets/media/` and reference the filename here
           image: build-website.png
           button:
-            text: Get Started
-            url: https://hugoblox.com/templates/
-        - title: ZIGGO Switch
+            text: Github
+            url: https://github.com/Horacehxw/Ziggo-TSNPerf
+        - title: <a href="/switch/"> ZIGGO Switch </a>
           text: Join our large community on Discord - ask questions and get live responses
           feature_icon: bolt
           features:
@@ -108,9 +109,9 @@ sections:
           # Upload image to `assets/media/` and reference the filename here
           image: coffee.jpg
           button:
-            text: Join Discord
-            url: https://discord.gg/z8wNYzb
-        - title: ZIGGO Device
+            text: Github
+            url: https://github.com/Horacehxw/Ziggo-Switch
+        - title: <a href="/device/"> ZIGGO Device </a>
           text: Join our large community on Discord - ask questions and get live responses
           feature_icon: bolt
           features:
@@ -120,8 +121,8 @@ sections:
           # Upload image to `assets/media/` and reference the filename here
           image: coffee.jpg
           button:
-            text: Join Discord
-            url: https://discord.gg/z8wNYzb
+            text: Github
+            url: https://github.com/Horacehxw/Ziggo-TSNPerf
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
@@ -166,7 +167,7 @@ sections:
     content: 
       title: PUBLICATIONS
       text:
-        <ol style="width:180%; text-align:justify;">
+        <ol style="width:180%; text-align:justify;list-style-type:decimal;">
           <li>Zeyu Wang*, Xiaowu He*, Xiangwen Zhuge, Shen Xu, Fan Dang, Jingao Xu and Zheng Yang
             <b>"Enabling Network Diagnostics in Time-Sensitive Networking:Protocol, Algorithm, and Hardware"</b>, IEEE <b>IWQoS</b>, 2024.
             <a href="http://tns.thss.tsinghua.edu.cn/ziggo/data/TSNCard.pdf" target="_blank">[PDF]</a>

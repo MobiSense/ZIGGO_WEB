@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ZIGGO-Device | Creator&#39;s Landing Page | Hugo Theme</title>
+    <link>http://localhost:1313/tag/ziggo-device/</link>
+      <atom:link href="http://localhost:1313/tag/ziggo-device/index.xml" rel="self" type="application/rss+xml" />
+    <description>ZIGGO-Device</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/logo.svg</url>
+      <title>ZIGGO-Device</title>
+      <link>http://localhost:1313/tag/ziggo-device/</link>
+    </image>
+    
+    <item>
+      <title>🎉 How to contribute</title>
+      <link>http://localhost:1313/device/contributing/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/device/contributing/</guid>
+      <description>&lt;h2 id=&#34;reporting-a-bug&#34;&gt;Reporting a bug&lt;/h2&gt;
+&lt;p&gt;File bugs in the &lt;a href=&#34;https://github.com/Horacehxw/Ziggo-CaaS-Switch/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Issue Tracker&lt;/a&gt;. Please follow these guidelines:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Search existing issues first, make sure yours hasn&amp;rsquo;t already been reported.&lt;/li&gt;
+&lt;li&gt;Consider enabling debug mode so that you can provide as much details as possible when reporting the issue.&lt;/li&gt;
+&lt;li&gt;Stay on topic, but describe the issue in detail so that others can &lt;strong&gt;reproduce&lt;/strong&gt; it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Provide a screenshot&lt;/strong&gt; if possible. A screenshot showing the problem is often more useful than a paragraph describing it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The development team will only answer questions on github issues and reject other forms of questions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;contributing-to-ziggos-code&#34;&gt;Contributing to ZIGGO&amp;rsquo;s code&lt;/h2&gt;
+&lt;p&gt;If you want to start contributing to the project&amp;rsquo;s code, please follow these guidelines before creating a pull request:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The top post of the pull request should contain a full, self-contained explanation of the feature: what it does, how it does it, with examples of usage and screenshots. Also explain why you want to add this - what problem does it solve. Do not simply add a text &lt;code&gt;Implement feature #4345&lt;/code&gt; , because the information there will most likely be outdated or confusing (multiple discussions and opinions). The pull request needs to be self-contained.&lt;/li&gt;
+&lt;li&gt;Bug fixes are always welcome.&lt;/li&gt;
+&lt;li&gt;A good way to easily start contributing is to pick and work on a good first issue. We try to make these issues as clear as possible and provide basic info on how the code should be changed, and if something is unclear feel free to ask for more information on the issue.&lt;/li&gt;
+&lt;li&gt;Before adding a new feature, ask about it in the &lt;a href=&#34;https://github.com/Horacehxw/Ziggo-CaaS-Switch/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Issue Tracker&lt;/a&gt; , or check if existing discussions exist to make sure the new functionality is desired.&lt;/li&gt;
+&lt;li&gt;Pull requests that make many changes using an automated tool, like for spell fixing, styling, etc. will not be accepted.&lt;/li&gt;
+&lt;li&gt;Pull requests that address multiple issues will most likely stall and eventually be closed. This is because we might be fine with one of the changes but not with others and untangling that kind of pull request is too much hassle both for maintainers and the person who submitted it. So most of the time someone gives up and the PR gets closed. So please keep the pull request focused on one issue.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Do not mark your reviewer&amp;rsquo;s comments as &amp;ldquo;resolved&amp;rdquo;&lt;/strong&gt;. If you do that, the comments will be hidden and the reviewer will not know what are the pending issues in the pull request. Only the reviewer should resolve the comments.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🎉 How to contribute</title>
+      <link>http://localhost:1313/switch/contributing/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/switch/contributing/</guid>
+      <description>&lt;h2 id=&#34;reporting-a-bug&#34;&gt;Reporting a bug&lt;/h2&gt;
+&lt;p&gt;File bugs in the &lt;a href=&#34;https://github.com/Horacehxw/Ziggo-CaaS-Switch/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Issue Tracker&lt;/a&gt;. Please follow these guidelines:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Search existing issues first, make sure yours hasn&amp;rsquo;t already been reported.&lt;/li&gt;
+&lt;li&gt;Consider enabling debug mode so that you can provide as much details as possible when reporting the issue.&lt;/li&gt;
+&lt;li&gt;Stay on topic, but describe the issue in detail so that others can &lt;strong&gt;reproduce&lt;/strong&gt; it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Provide a screenshot&lt;/strong&gt; if possible. A screenshot showing the problem is often more useful than a paragraph describing it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The development team will only answer questions on github issues and reject other forms of questions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;contributing-to-ziggos-code&#34;&gt;Contributing to ZIGGO&amp;rsquo;s code&lt;/h2&gt;
+&lt;p&gt;If you want to start contributing to the project&amp;rsquo;s code, please follow these guidelines before creating a pull request:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The top post of the pull request should contain a full, self-contained explanation of the feature: what it does, how it does it, with examples of usage and screenshots. Also explain why you want to add this - what problem does it solve. Do not simply add a text &lt;code&gt;Implement feature #4345&lt;/code&gt; , because the information there will most likely be outdated or confusing (multiple discussions and opinions). The pull request needs to be self-contained.&lt;/li&gt;
+&lt;li&gt;Bug fixes are always welcome.&lt;/li&gt;
+&lt;li&gt;A good way to easily start contributing is to pick and work on a good first issue. We try to make these issues as clear as possible and provide basic info on how the code should be changed, and if something is unclear feel free to ask for more information on the issue.&lt;/li&gt;
+&lt;li&gt;Before adding a new feature, ask about it in the &lt;a href=&#34;https://github.com/Horacehxw/Ziggo-CaaS-Switch/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Issue Tracker&lt;/a&gt; , or check if existing discussions exist to make sure the new functionality is desired.&lt;/li&gt;
+&lt;li&gt;Pull requests that make many changes using an automated tool, like for spell fixing, styling, etc. will not be accepted.&lt;/li&gt;
+&lt;li&gt;Pull requests that address multiple issues will most likely stall and eventually be closed. This is because we might be fine with one of the changes but not with others and untangling that kind of pull request is too much hassle both for maintainers and the person who submitted it. So most of the time someone gives up and the PR gets closed. So please keep the pull request focused on one issue.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Do not mark your reviewer&amp;rsquo;s comments as &amp;ldquo;resolved&amp;rdquo;&lt;/strong&gt;. If you do that, the comments will be hidden and the reviewer will not know what are the pending issues in the pull request. Only the reviewer should resolve the comments.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>👍Hardware：Build the CaaS Device</title>
+      <link>http://localhost:1313/device/hardware-build/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/device/hardware-build/</guid>
+      <description>&lt;h2 id=&#34;before-start&#34;&gt;Before Start&lt;/h2&gt;
+&lt;p&gt;If you just want to teach the board to run instead of modifying it, and you use the hardware files we provide, you can skip directly to step &lt;a href=&#34;#6-sd-card-partition-and-copy-file&#34;&gt;SD card partition and copy file&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;table-of-content&#34;&gt;Table of Content&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#before-start&#34;&gt;Before Start&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#table-of-content&#34;&gt;Table of Content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#install-vivado&#34;&gt;Install Vivado&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#vivado-project-construction&#34;&gt;Vivado project construction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#petalinux&#34;&gt;Petalinux&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#1install-ubuntu-os&#34;&gt;1.install ubuntu OS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#2download-petalinux-related-image-files-in-advance&#34;&gt;2.Download PetaLinux related image files in advance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#3activate-the-petalinux-environment&#34;&gt;3.Activate the PetaLinux environment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#4create-petalinux-project&#34;&gt;4.Create PetaLinux Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#5petalinux-configuration&#34;&gt;5.Petalinux Configuration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#6-sd-card-partition-and-copy-file&#34;&gt;6. SD card partition and copy file&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#file-downloading&#34;&gt;File downloading&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#sd-card-partition&#34;&gt;SD card partition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#copy-files-into-sd-card&#34;&gt;Copy files into SD card&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#launch-the-board-and-log-in&#34;&gt;Launch the Board and log in&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#1-launch-the-board&#34;&gt;1. Launch the Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#2-initialize-ps&#34;&gt;2. Initialize PS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#3-connect-to-internet&#34;&gt;3. Connect to Internet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#4-run-the-software&#34;&gt;4. Run the Software&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;install-vivado&#34;&gt;Install Vivado&lt;/h2&gt;
+&lt;p&gt;You can download Vivado &lt;a href=&#34;https://www.xilinx.com/products/design-tools/vivado.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We are using Vivado version 2020.1 (note: a unified version is required, otherwise running may cause problems).&lt;/p&gt;
+&lt;h2 id=&#34;vivado-project-construction&#34;&gt;Vivado project construction&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;clone the git repository for the hardware part.&lt;/li&gt;
+&lt;li&gt;Open Vivado and enter the command &lt;code&gt;cd Porject_Dir&lt;/code&gt; in Tcl Console and &lt;code&gt;source ./tsn_device.tcl&lt;/code&gt;. After the command is executed, Vivado will automatically open the created project. Here, we will first close Vivado and rename the folder where the project is located to &lt;code&gt;Work_ Dir&lt;/code&gt;, so that git can correctly ignore this directory and enter &lt;code&gt;Work_ Dir&lt;/code&gt;, double-click the &lt;code&gt;.xpr&lt;/code&gt; file to open the project again.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./vivado_tcl_console.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./vivado_workdir.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Click &lt;code&gt;Generate Bitstream&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./vivado_bitstream.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Export the xsa file. In Vivado, File Export Export Hardware. Select Fixed for Platform type. Select include bitstream for Output. Click Finish to export the xsa file.&lt;/p&gt;
+&lt;p&gt;Exported xsa file path: &lt;code&gt;Work_Dir/tns+tsn_device.xsa&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;petalinux&#34;&gt;Petalinux&lt;/h2&gt;
+&lt;h3 id=&#34;1install-ubuntu-os&#34;&gt;1.install ubuntu OS&lt;/h3&gt;
+&lt;p&gt;The following compilation processes are all completed within the virtual machine.&lt;/p&gt;
+&lt;p&gt;We recommend using the following configuration:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Virtual machine version: VMware Workstation 16 Pro
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Ubuntu version: ubuntu-16.04.3-desktop-amd64.iso
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;2download-petalinux-related-image-files-in-advance&#34;&gt;2.Download PetaLinux related image files in advance&lt;/h3&gt;
+&lt;p&gt;Enter website: &lt;a href=&#34;https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools/archive.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools/archive.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Select 2020.1 to find &lt;code&gt;PetaLinux Tools sstate-cache artifacts&lt;/code&gt; and download &lt;code&gt;sstate_ arm_ 2020.1&lt;/code&gt; and &lt;code&gt;downloads&lt;/code&gt; and save the downloads in a specified directory in the virtual machine on January 2021 (the directory for this document is set to/home/alinx/data/)&lt;/p&gt;
+&lt;p&gt;​    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./download_petalinux.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;3activate-the-petalinux-environment&#34;&gt;3.Activate the PetaLinux environment&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;source&lt;/span&gt; /opt/pkg/petalinux/settings.sh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;​    Automatically activate the PetaLinux environment every time Terminal is started.&lt;/p&gt;
+&lt;h3 id=&#34;4create-petalinux-project&#34;&gt;4.Create PetaLinux Project&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;petalinux-create --type project --template zynq --name &amp;lt;project_name&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; &amp;lt;project_name&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;5petalinux-configuration&#34;&gt;5.Petalinux Configuration&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Import Hardware Configuration&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;petalinux-config --get-hw-description &amp;lt;PATH-TO-XSA Directory&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then you will enter the menuconfig page and configure as follows:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Subsystem&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;AUTO&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Hardware&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Settings&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Ethernet&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Settings&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Randomise&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;MAC&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;address&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;ne&#34;&gt;Image&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Packaging&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Configurations&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Root&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;filesystem&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;type&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;EXT4&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;SD&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;eMMC&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;SATA&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;USB&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Yocto&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Settings&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Use&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;downloaded&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Local&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sstate&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;feeds&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;settings&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;home&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;alinx&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sstate_arm_2020&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;arm&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Add&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pre&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mirror&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;file&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;///&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;home&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;alinx&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;downloads&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;make &lt;code&gt;Kernel Module&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;​    make a module named &amp;ldquo;&lt;code&gt;dma proxy&lt;/code&gt;&amp;rdquo;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;petalinux-create -t modules -n dma-proxy --enable
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;​    replace the dma-proxy folder:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rm -rf project-spec/meta-user/recipes-modules/*
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;download our dma-proxy (from &lt;a href=&#34;https://cloud.tsinghua.edu.cn/f/85cfd8e8174e4689b79b/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;) and unzip in &lt;code&gt;project-spec/meta-user/recipes-modules/&lt;/code&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Configuring the kernel&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;petalinux-config -c kernel
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Entering the &lt;code&gt;menuconfig&lt;/code&gt; page, and do:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Device Drivers 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-&amp;gt; Userspace I/O drivers 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  -&amp;gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;*&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; Userspace I/O platform driver with generic IRQ handling 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  -&amp;gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;*&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; Userspace platform driver with generic irq and dynamic memory 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  -&amp;gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;*&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; Xilinx AI Engine driverDevice Drivers 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-&amp;gt; Dma Engine Support  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  -&amp;gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;*&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; Xilinx DMA Engines
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-&amp;gt; Network device support    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  -&amp;gt; Ethernet driver support        
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    -&amp;gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;*&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; Cadence devices        
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    -&amp;gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;*&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; Cadence MACB/GEM support
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;General setup 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-&amp;gt; Preemption Model    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  -&amp;gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;X&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; No Forced Preemption &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;Server&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Configuring rootfs&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Edit file &lt;code&gt;project-spec/meta-user/conf/user-rootfsconfig&lt;/code&gt;, and &lt;em&gt;&lt;strong&gt;add&lt;/strong&gt;&lt;/em&gt; the following configuration:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_sudo
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_sudo-dev
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_dnf
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_packagegroup-core-buildessential
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_packagegroup-core-buildessential-dev
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_packagegroup-self-hosted
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_packagegroup-self-hosted-dev
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_packagegroup-self-hosted-sdk-dev
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_packagegroup-self-hosted-sdk
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_python3
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_autoconf
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_autoconf-dev
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_automake
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_automake-dev
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_bison
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_bison-dev
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_flex
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_flex-dev
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_make
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_make-dev
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_python
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_libtool
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_libtool-dev
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_sqlite3
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_cmake
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_util-linux
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONFIG_net-tools
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Save and exit.&lt;/p&gt;
+&lt;p&gt;Input:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;petalinux-config -c rootfs
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then you will enter the menuconfig page and configure as follows:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;Image&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Features&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;package&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;management&lt;/span&gt;   
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;http&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//petalinux.xilinx.com/sswreleases/rel-v2020/feeds/zc702-zynq7/) Package feed url.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;user&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;packages&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;SELECT&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ALL&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Compile the device tree&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;petalinux-build -c device-tree
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Modify the device tree&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The generated device tree is located in &lt;code&gt;components/plnx_workspace/device tree/device tree/pl.dtsi&lt;/code&gt; directory, we need to make modifications based on this file to meet some of our peripheral needs. The modified files are stored in the &lt;code&gt;project-spec/meta user/recipes bsp/device tree/files/system-user.dtsi&lt;/code&gt; directory.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note: Between the &lt;code&gt;//&amp;gt;&amp;gt;&amp;gt;&lt;/code&gt; and &lt;code&gt;//&amp;lt;&amp;lt;&amp;lt;&lt;/code&gt; is the content added between the comments.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-C&#34; data-lang=&#34;C&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;include&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;system-conf.dtsi&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nl&#34;&gt;amba_pl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;amba_pl&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;n&#34;&gt;dma_proxy&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;compatible&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;xlnx,dma_proxy&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;dmas&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;axi_dma_0&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;  &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;axi_dma_0&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;dma&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;names&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;dma_proxy_tx&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;dma_proxy_rx&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;nl&#34;&gt;pkt_gen_controller_0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pkt_gen_controller&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;c00000&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                        &lt;span class=&#34;n&#34;&gt;compatible&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;generic-uio&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;uio&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                        &lt;span class=&#34;n&#34;&gt;reg&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;mh&#34;&gt;0x43c00000&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;0x10000&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;nl&#34;&gt;rtc0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;time_sync_uio&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;c10000&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                        &lt;span class=&#34;n&#34;&gt;compatible&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;generic-uio&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;uio&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                        &lt;span class=&#34;n&#34;&gt;reg&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;mh&#34;&gt;0x43c10000&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;0x10000&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;chosen&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                        &lt;span class=&#34;n&#34;&gt;bootargs&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;console=ttyPS0,115200 earlyprintk cma=256M uio_pdrv_genirq.of_id=generic-uio root=/dev/mmcblk0p2 rw rootwait&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;stdout&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;path&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;serial0:115200n8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;gem1&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;local&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mac&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;address&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mo&#34;&gt;00&lt;/span&gt; &lt;span class=&#34;mo&#34;&gt;00&lt;/span&gt; &lt;span class=&#34;mo&#34;&gt;00&lt;/span&gt; &lt;span class=&#34;mo&#34;&gt;00&lt;/span&gt; &lt;span class=&#34;mo&#34;&gt;02&lt;/span&gt; &lt;span class=&#34;mo&#34;&gt;01&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;phy&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mode&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;gmii&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;fixed&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;link&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;speed&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1000&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;full&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;duplex&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;Complie&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;petalinux-build
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;Pack&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here, you need to copy the bitstream file generated by Vivado to the virtual machine.  (You can export bitstream file to where you want).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./export_bitstream.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Then:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; images/linux
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;petalinux-package --boot --fsbl zynq_fsbl.elf --fpga &amp;lt;FPGA bitstream path&amp;gt; --u-boot --force
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After that, you can get 4 key file: &lt;code&gt;BOOT.BIN&lt;/code&gt; &lt;code&gt;boot.scr&lt;/code&gt; &lt;code&gt;image.ub&lt;/code&gt; &lt;code&gt;rootfs.tar.gz&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;6-sd-card-partition-and-copy-file&#34;&gt;6. SD card partition and copy file&lt;/h3&gt;
+&lt;h4 id=&#34;file-downloading&#34;&gt;File downloading&lt;/h4&gt;
+&lt;p&gt;Download the following file from &lt;a href=&#34;https://cloud.tsinghua.edu.cn/d/0bbc00543e5b4b82a6ea/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this&lt;/a&gt; public link or from preceding steps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BOOT.BIN&lt;/li&gt;
+&lt;li&gt;boot.scr&lt;/li&gt;
+&lt;li&gt;image.ub&lt;/li&gt;
+&lt;li&gt;rootfs.tar.gz&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;sd-card-partition&#34;&gt;SD card partition&lt;/h4&gt;
+&lt;p&gt;In order to boot the TSNPerf, you are supposed to have a micro SD card with &amp;gt;32GiB storage. Then use:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get install gparted
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo gparted
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Parition it into two partition below&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;BOOT: store boot files from petalinux&lt;/p&gt;
+&lt;p&gt;Free space preceding (MiB): 4&lt;/p&gt;
+&lt;p&gt;New size (MiB): 500&lt;/p&gt;
+&lt;p&gt;File system: fat32&lt;/p&gt;
+&lt;p&gt;Label: BOOT&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ROOTFS: store debian system rootfs&lt;/p&gt;
+&lt;p&gt;Free space preceding (MiB): 0&lt;/p&gt;
+&lt;p&gt;Free space following (MiB): 0&lt;/p&gt;
+&lt;p&gt;File system: ext4&lt;/p&gt;
+&lt;p&gt;Label: ROOTFS&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;copy-files-into-sd-card&#34;&gt;Copy files into SD card&lt;/h4&gt;
+&lt;p&gt;Mound SD card:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo mount /dev/sda1 /media/alinx/BOOT/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo mount /dev/sda2 /media/alinx/ROOTFS/
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Remove original files:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo rm -rf /media/alinx/BOOT/* /media/alinx/ROOTFS/*
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Copy files:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo cp BOOT.BIN boot.scr image.ub /media/alinx/BOOT
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo tar -zxvf rootfs.tar.gz -C /media/alinx/ROOTFS
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo cp -r ~/init_os.sh /media/alinx/ROOTFS/home/root/init_os.sh 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sync
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo chown root:root /media/alinx/ROOTFS
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo chmod &lt;span class=&#34;m&#34;&gt;755&lt;/span&gt; /media/alinx/ROOTFS
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;launch-the-board-and-log-in&#34;&gt;Launch the Board and log in&lt;/h2&gt;
+&lt;h3 id=&#34;1-launch-the-board&#34;&gt;1. Launch the Board&lt;/h3&gt;
+&lt;p&gt;Plug the SD card into FPGA board, turn the switch to SD card boot mode.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./FPGA_boot_mode_switch.png&#34; alt=&#34;SD boot&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;2-initialize-ps&#34;&gt;2. Initialize PS&lt;/h3&gt;
+&lt;p&gt;Plug in SD card, setup AX7021 board to boot on SD, power on.&lt;/p&gt;
+&lt;p&gt;Connect a PC to the UART port of the board. We recommend using MobaXterm to connect the serial. Set up the Speed to 115200, Flow Control to None.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./moba_serial.png&#34; alt=&#34;MobaXterm&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The default username and password are as follows:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;username:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;root&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;password:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;root&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Execute the initilization script to set up the linux environment. (&lt;code&gt;hardware/init_os.sh&lt;/code&gt;)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sh init_os.sh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can freely configure the host name, IP address, and MAC address, etc with the script, and can modify the script if needed.&lt;/p&gt;
+&lt;h3 id=&#34;3-connect-to-internet&#34;&gt;3. Connect to Internet&lt;/h3&gt;
+&lt;p&gt;Connect the PC&amp;rsquo;s network port to the device&amp;rsquo;s &lt;strong&gt;PS&lt;/strong&gt; network port (ETH0).&lt;/p&gt;
+&lt;p&gt;Set up PC&amp;rsquo;s corresponding port to be in the same subnet with the device (i.e., 192.168.137.x).&lt;/p&gt;
+&lt;p&gt;Afterwards, you can connect to the device through &lt;code&gt;ssh&lt;/code&gt; and copy any Software files needed.&lt;/p&gt;
+&lt;h3 id=&#34;4-run-the-software&#34;&gt;4. Run the Software&lt;/h3&gt;
+&lt;p&gt;Please refer to the software part of this repo for further instructions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>👩🏼‍🏫 准备清单</title>
+      <link>http://localhost:1313/device/require/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/device/require/</guid>
+      <description>&lt;h2 id=&#34;软件环境清单&#34;&gt;软件环境清单&lt;/h2&gt;
+&lt;h3 id=&#34;vivada-开发环境&#34;&gt;Vivada 开发环境&lt;/h3&gt;
+&lt;p&gt;Vivado 是开发板的硬件开发程序。&lt;/p&gt;
+&lt;p&gt;Vivado 软件的 Xilinx 官方下载地址： &lt;a href=&#34;http://china.xilinx.com/support/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://china.xilinx.com/support/download.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本开发团队使用的是Vivado &lt;em&gt;&lt;strong&gt;2020.1&lt;/strong&gt;&lt;/em&gt;版本，我们建议ZIGGO项目使用者也使用相同版本以免一些不必要的麻烦。&lt;/p&gt;
+&lt;p&gt;具体的安装流程可以参照 &lt;a href=&#34;https://cloud.tsinghua.edu.cn/f/f9f1a4f92a344e8e9c2c/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZYNQ应用教程&lt;/a&gt; &lt;strong&gt;第三章Vivado开发环境&lt;/strong&gt; 进行安装。&lt;/p&gt;
+&lt;h3 id=&#34;mobaxterm&#34;&gt;MobaXterm&lt;/h3&gt;
+&lt;p&gt;MobaXterm是串口连接工具，我们在&lt;a href=&#34;./hardware_build.md&#34;&gt;hardware_build.md&lt;/a&gt;中“Launch the Board and log in”这一章节进行了使用介绍。&lt;/p&gt;
+&lt;p&gt;MobaXterm的官方下载地址：&lt;a href=&#34;https://mobaxterm.mobatek.net/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MobaXterm Xserver with SSH, telnet, RDP, VNC and X11 - Download (mobatek.net)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;硬件准备清单&#34;&gt;硬件准备清单&lt;/h2&gt;
+&lt;h3 id=&#34;alinx7021开发板&#34;&gt;Alinx7021开发板&lt;/h3&gt;
+&lt;img src=&#34;./alinx7021.png&#34; alt=&#34;Alinx&#34; style=&#34;zoom:50%;&#34; /&gt;
+&lt;h3 id=&#34;sd启动卡&#34;&gt;SD启动卡&lt;/h3&gt;
+&lt;p&gt;SD启动卡中存储着操作系统，建议容量 $\geq$ 32G。&lt;/p&gt;
+&lt;h3 id=&#34;必要的线材&#34;&gt;必要的线材&lt;/h3&gt;
+&lt;p&gt;包括网线、数据线等。&lt;/p&gt;
+&lt;h3 id=&#34;普通交换机&#34;&gt;普通交换机&lt;/h3&gt;
+&lt;p&gt;如果使用的开发板数量较多，可以考虑将所有开发板连接到普通交换机再通过普通交换机连接至PC（通过网线）进行管理和使用。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>👩🏼‍🏫 准备清单</title>
+      <link>http://localhost:1313/switch/require/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/switch/require/</guid>
+      <description>&lt;h2 id=&#34;软件环境清单&#34;&gt;软件环境清单&lt;/h2&gt;
+&lt;h3 id=&#34;vivada-开发环境&#34;&gt;Vivada 开发环境&lt;/h3&gt;
+&lt;p&gt;Vivado 是开发板的硬件开发程序。&lt;/p&gt;
+&lt;p&gt;Vivado 软件的 Xilinx 官方下载地址： &lt;a href=&#34;http://china.xilinx.com/support/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://china.xilinx.com/support/download.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本开发团队使用的是Vivado &lt;em&gt;&lt;strong&gt;2020.1&lt;/strong&gt;&lt;/em&gt;版本，我们建议ZIGGO项目使用者也使用相同版本以免一些不必要的麻烦。&lt;/p&gt;
+&lt;p&gt;具体的安装流程可以参照 &lt;a href=&#34;https://cloud.tsinghua.edu.cn/f/f9f1a4f92a344e8e9c2c/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZYNQ应用教程&lt;/a&gt; &lt;strong&gt;第三章Vivado开发环境&lt;/strong&gt; 进行安装。&lt;/p&gt;
+&lt;h3 id=&#34;mobaxterm&#34;&gt;MobaXterm&lt;/h3&gt;
+&lt;p&gt;MobaXterm是串口连接工具，我们在&lt;a href=&#34;http://localhost:1313/switch/hardware-build/&#34;&gt;hardware-build&lt;/a&gt;中“Launch the Board and log in”这一章节进行了使用介绍。&lt;/p&gt;
+&lt;p&gt;MobaXterm的官方下载地址：&lt;a href=&#34;https://mobaxterm.mobatek.net/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MobaXterm Xserver with SSH, telnet, RDP, VNC and X11 - Download (mobatek.net)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;硬件准备清单&#34;&gt;硬件准备清单&lt;/h2&gt;
+&lt;h3 id=&#34;alinx7021开发板&#34;&gt;Alinx7021开发板&lt;/h3&gt;
+&lt;img src=&#34;./alinx7021.png&#34; alt=&#34;Alinx&#34; style=&#34;zoom:50%;&#34; /&gt;
+&lt;h3 id=&#34;sd启动卡&#34;&gt;SD启动卡&lt;/h3&gt;
+&lt;p&gt;SD启动卡中存储着操作系统，建议容量 $\geq$ 32G。&lt;/p&gt;
+&lt;h3 id=&#34;必要的线材&#34;&gt;必要的线材&lt;/h3&gt;
+&lt;p&gt;包括网线、数据线等。&lt;/p&gt;
+&lt;h3 id=&#34;普通交换机&#34;&gt;普通交换机&lt;/h3&gt;
+&lt;p&gt;如果使用的开发板数量较多，可以考虑将所有开发板连接到普通交换机再通过普通交换机连接至PC（通过网线）进行管理和使用。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>💦 Software:Time Sync &#43; Config for CaaS Device</title>
+      <link>http://localhost:1313/device/software-build/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/device/software-build/</guid>
+      <description>&lt;p&gt;This repo contains source code to enable TSN/CaaS TSNPerf&amp;rsquo; time synchronization logic and set up packet generation plan.&lt;/p&gt;
+&lt;h2 id=&#34;table-of-content&#34;&gt;Table of Content&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#table-of-content&#34;&gt;Table of Content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#1-build&#34;&gt;1. Build&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#2-config&#34;&gt;2. Config&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#3-run&#34;&gt;3. Run&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#4-analyze&#34;&gt;4. Analyze&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#41-tsnperf-directly-analyzes-latency-and-jitter&#34;&gt;4.1 TSNPerf directly analyzes latency and jitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#42-offline-analysis-of-latency-and-jitter&#34;&gt;4.2 Offline analysis of latency and jitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;1-build&#34;&gt;1. Build&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir build
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; build
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cmake ..
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After successfully build, there should be two executables: &amp;ldquo;time_sync&amp;rdquo; &amp;amp; &amp;ldquo;pkt_gen&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;2-config&#34;&gt;2. Config&lt;/h2&gt;
+&lt;p&gt;The &amp;ldquo;build&amp;rdquo; directory contains topology &amp;amp; TSN/CaaS schedule results.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;config.json: topology file, contains node info (type, mac, ptp ports), link between nodes (with ports), and forwarding table.&lt;/li&gt;
+&lt;li&gt;schedule.json: schedule file, contains each links&amp;rsquo; schedule time interval &amp;amp; each CaaS switch&amp;rsquo;s computation time interval.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(Hints: This is similar to a Ziggo Switch)&lt;/p&gt;
+&lt;h2 id=&#34;3-run&#34;&gt;3. Run&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Start time syncronization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./time_sync
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Start device critical packet generation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./pkt_gen
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;4-analyze&#34;&gt;4. Analyze&lt;/h2&gt;
+&lt;p&gt;There are two analysis methods for TSNPerf:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hint: If you want to use offline anaylze, please switch branch to &amp;lsquo;offline_anaylze&amp;rsquo;, and you need to link device to anthor PC(linux) by wire.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;One method is to directly analyze latency and jitter on the TSNPerf.&lt;/p&gt;
+&lt;p&gt;Another method is to use Device to stamp the received packet and forward it from another port to a powerful desktop computer for packet capture analysis. Even if entering the Device at a gigabit rate, there will be no packet loss. The disadvantage is that a separate program needs to be written offline to analyze the delay and jitter of the packet.&lt;/p&gt;
+&lt;h3 id=&#34;41-tsnperf-directly-analyzes-latency-and-jitter&#34;&gt;4.1 TSNPerf directly analyzes latency and jitter&lt;/h3&gt;
+&lt;p&gt;During the operation of the  &lt;code&gt;time sync&lt;/code&gt; program, after receiving the test data frame, the program will save the delay information of the data frame in the package under the &lt;code&gt;build/packet_log.csv&lt;/code&gt;   file, save the batch statistics of latency and jitter in the critical directory under the build directory at the same time in the &lt;code&gt;build/critical_log.csv&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;You can display the content of the header and the last 5 lines using the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat critical.log &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; head -n1
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat critical.log &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; tail -n5
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;42-offline-analysis-of-latency-and-jitter&#34;&gt;4.2 Offline analysis of latency and jitter&lt;/h3&gt;
+&lt;p&gt;If conducting offline analysis, it is important to note that the hardware used is located at &lt;code&gt;offline_analyze&lt;/code&gt; branch. This version will stamp the key data with a receive timestamp and forward it from ETH2. We need to use a PC equipped with a Linux system to capture packets for analysis.&lt;/p&gt;
+&lt;p&gt;Example of packet capture command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo tcpdump -i enx207bd272812b ether src 00:0a:35:00:00:14 -n -B &lt;span class=&#34;m&#34;&gt;100000&lt;/span&gt; -w packets.pcapng
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;Enx207bd272812b&lt;/code&gt; is the name of the network card, which can be obtained through ifconfig. &lt;code&gt;Src&lt;/code&gt; is used to specify that the captured packet comes from a certain MAC address. &lt;code&gt;-B&lt;/code&gt; is used to specify the buffer size. If packet loss needs to be set to a larger size, you can check the information output after packet capture to see if Dropped by kernel: is 0. If it is not 0, it indicates that there is packet loss in the kernel. &lt;code&gt;-W&lt;/code&gt; specifies the path to save the file.&lt;/p&gt;
+&lt;p&gt;Code for analyzing programs is &lt;code&gt;analyze_packet.py&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python .&lt;span class=&#34;se&#34;&gt;\a&lt;/span&gt;nalyze_packet.py &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;capture file path&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; --step &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;interval&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;At the same time, a packet will be generated in the current directory (&lt;code&gt;packet_log.csv&lt;/code&gt; and &lt;code&gt;critical_log.csv&lt;/code&gt;).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>📕 CNC脚本使用指南</title>
+      <link>http://localhost:1313/device/cnc_manual/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/device/cnc_manual/</guid>
+      <description>&lt;h2 id=&#34;1-运行脚本前在batchmjs中要配置好以下变量&#34;&gt;1. 运行脚本前，在batch.mjs中要配置好以下变量：&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// IP address format: 192.168.137.*
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// 测试数据
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;conf_default&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;需要执行的配置名称&amp;gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// 时钟主节点
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;master&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;40&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;hosts&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;device&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;44&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;k&#34;&gt;switch&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;40&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;41&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;安装好需要的依赖：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;```bash
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo npm install -g zx@4.3.0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install -r requirements.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm install
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;配置好环境变量，在.bashrc中加入：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;PYTHONPATH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;/home/&amp;lt;用户名&amp;gt;/scripts&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;2-下载好switch和tsnperf的软件代码&#34;&gt;2. 下载好Switch和TSNPerf的软件代码&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;（记得提前配置好树莓派和所有板子之间的ssh public key，方便免密登录）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./batch.mjs clone
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;3-拉取最新的软件代码并同步到远程板子上&#34;&gt;3. 拉取最新的软件代码并同步到远程板子上&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;默认时master分支，如果需要指定分支，需要修改batch.mjs文件中的pull()函数，具体参考注释的部分&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// pull all the latest code
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;pull&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;async&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;cd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;homedir&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;/repos`&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// 如果需要指定分支，类似下面指定qbv-test分支的操作
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// await $`cd pkt_gen_app; git stash; git checkout qbv-test; git pull origin qbv-test; cd ..`
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// await $`cd time_sync_app; git stash; git checkout qbv-test; git pull origin qbv-test; cd ..`
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;await&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Promise&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;all&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;hosts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;all&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;host&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;hosts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;device&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;includes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;host&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;?&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;device&amp;#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;switch&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;===&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;device&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;       &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;`rsync -avPh &lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;homedir&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;/repos/pkt_gen_app root@192.168.137.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;host&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;:~/`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;===&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;switch&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;       &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;`rsync -avPh &lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;homedir&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;/repos/time_sync_app root@192.168.137.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;host&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;:~/;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;同步到所有板子上：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./batch.mjs pull
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;4-使远程所有板子编译代码&#34;&gt;4. 使远程所有板子编译代码&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./batch.mjs build
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;5-将配置文件下发到所有板子上&#34;&gt;5. 将配置文件下发到所有板子上&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./batch.mjs distribute
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;6-开始启动所有板子的程序&#34;&gt;6. 开始启动所有板子的程序&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./batch.mjs launch
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;7-收集延迟和抖动的统计信息&#34;&gt;7. 收集延迟和抖动的统计信息&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./batch.mjs collect
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>📕 ZIGGO Device使用手册</title>
+      <link>http://localhost:1313/device/ziggo_device_manual/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/device/ziggo_device_manual/</guid>
+      <description>&lt;p&gt;There are two analysis methods for ZIGGO Device:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hint: If you want to use offline anaylze, please switch branch to &amp;lsquo;offline_anaylze&amp;rsquo;, and you need to link device to anthor PC(linux) by wire.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;One method is to &lt;code&gt;directly&lt;/code&gt; analyze latency and jitter on the ZIGGO Device. The advantage of this method is that it is convenient and fast. We can directly count the latency and jitter of all received data frames on the Device. However, due to the limited processing power of the development board CPU, when analyzing a large number of data packets (such as sending more than 10 1500B data packets at a time with a cycle of 33ms), packet loss may occur;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./online_analyse.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Another method is to use Device to stamp the received packet and forward it from another port to a powerful desktop computer for packet capture analysis. Even if entering the Device at a gigabit rate, there will be no packet loss. The disadvantage is that a separate program needs to be written offline to analyze the delay and jitter of the packet.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./offline_analyse.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;ziggo-device-directly-analyzes-latency-and-jitter&#34;&gt;ZIGGO Device directly analyzes latency and jitter&lt;/h2&gt;
+&lt;p&gt;During the operation of the  &lt;code&gt;time sync&lt;/code&gt; program, after receiving the test data frame, the program will save the delay information of the data frame in the package under the &lt;code&gt;build/packet_log.csv&lt;/code&gt; file, save the batch statistics of latency and jitter in the critical directory under the build directory at the same time in the &lt;code&gt;build/critical_log.csv&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Example of &lt;code&gt;packet_log.csv&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Seq ID, Pkt ID, TX timestamp, RX timestamp, Latency
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 0, 12683587446, 12683613722, 26276
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1, 12683599662, 12683625970, 26308
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 2, 12683611862, 12683638162, 26300
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 3, 12683624078, 12683650386, 26308
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 4, 12717142039, 12717168273, 26234
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 5, 12717154223, 12717180465, 26242
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 6, 12717166391, 12717192625, 26234
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 7, 12717178575, 12717204825, 26250
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 8, 12750696471, 12750722712, 26241
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 9, 12750708655, 12750734904, 26249
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Example of &lt;code&gt;critical_ log.csv&lt;/code&gt;, where Latency Variance is the variance of Latency:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Seq ID, Received Number, Max pkt_id, Min pkt_id, Loss Rate, Latency Mean, Latency Variance
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 0, 999, 0.000000,  26230, 1199
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 1000, 1999, 0.000000,  26218, 2811
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 2000, 2999, 0.000000,  26218, 2808
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 3000, 3999, 0.000000,  26195, 18331
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 4000, 4999, 0.000000,  26233, 921
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 5000, 5999, 0.000000,  26226, 852
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 6000, 6999, 0.000000,  26226, 5080
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 7000, 7999, 0.000000,  26250, 105272
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 8000, 8999, 0.000000,  26204, 7233
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 9000, 9999, 0.000000,  26205, 7361
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can display the content of the header and the last 5 lines using the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat critical.log &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; head -n1
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat critical.log &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; tail -n5
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;offline-analysis-of-latency-and-jitter&#34;&gt;Offline analysis of latency and jitter&lt;/h2&gt;
+&lt;p&gt;If conducting offline analysis, it is important to note that the hardware used is located at &lt;code&gt;offline_analyze&lt;/code&gt; branch. This version will stamp the key data with a receive timestamp and forward it from ETH2. We need to use a PC equipped with a Linux system to capture packets for analysis.&lt;/p&gt;
+&lt;p&gt;Example of packet capture command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo tcpdump -i enx207bd272812b ether src 00:0a:35:00:00:14 -n -B &lt;span class=&#34;m&#34;&gt;100000&lt;/span&gt; -w packets.pcapng
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;Enx207bd272812b&lt;/code&gt; is the name of the network card, which can be obtained through ifconfig. &lt;code&gt;Src&lt;/code&gt; is used to specify that the captured packet comes from a certain MAC address. &lt;code&gt;-B&lt;/code&gt; is used to specify the buffer size. If packet loss needs to be set to a larger size, you can check the information output after packet capture to see if Dropped by kernel: is 0. If it is not 0, it indicates that there is packet loss in the kernel. &lt;code&gt;-W&lt;/code&gt; specifies the path to save the file.&lt;/p&gt;
+&lt;p&gt;Code for analyzing programs is &lt;code&gt;analyze_packet.py&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python .&lt;span class=&#34;se&#34;&gt;\a&lt;/span&gt;nalyze_packet.py &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;capture file path&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; --step &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;interval&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;At the same time, a packet will be generated in the current directory (&lt;code&gt;packet_log.csv&lt;/code&gt; and &lt;code&gt;critical_log.csv&lt;/code&gt;).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🔨 System Design —— PL &amp; PS Co-operate</title>
+      <link>http://localhost:1313/device/system-design/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/device/system-design/</guid>
+      <description>&lt;p&gt;ZIGGO is implemented on ZYNQ-7000 SoC and exploits ZYNQ&amp;rsquo;s both hardware and software programmability.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./framework.jpg&#34; alt=&#34;framework&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;table-of-content&#34;&gt;Table of Content&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#table-of-content&#34;&gt;Table of Content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#evaluation-method&#34;&gt;Evaluation Method&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#test-data-frame-data-structure&#34;&gt;Test data frame data structure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#module-design&#34;&gt;Module Design&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#correspondence-between-software-and-hardware-registers&#34;&gt;Correspondence between software and hardware registers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#offline-analysis-and-design&#34;&gt;Offline Analysis and Design&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;evaluation-method&#34;&gt;Evaluation Method&lt;/h2&gt;
+&lt;p&gt;The ZIGGO Evaluation Toolkit is used to send and receive test data frames for the purpose of ensuring &lt;code&gt;accurate delay calculations&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;To achieve this accuracy, the toolkit needs to &lt;strong&gt;synchronize its time&lt;/strong&gt; with the TSN switch and record a &lt;strong&gt;global hardware timestamp&lt;/strong&gt; in the test data frames.&lt;/p&gt;
+&lt;p&gt;As shown in the diagram below, in a data flow link with $n$ network nodes, Node $1$ serves as the source node to send test data frames, Node $n$ acts as the destination node to receive test data frames, and all the intermediate nodes (Node $2$ to Node $n-1$) are TSN switches.&lt;/p&gt;
+&lt;p&gt;When a test data frame is sent from the source node, the hardware records the timestamp $t^+$ of when the frame was sent in the data frame. Finally, when the data frame arrives at the destination node, the destination node records the timestamp $t^-$ of when the frame entered that node. By calculating $(t^−−t^+)$, we can determine the end-to-end latency of the data frame.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./device_test_demo.png&#34; alt=&#34;device_test_demo&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In this doc, $t^{dir}$ is used to represent the timestamp of data frames entering and leaving the hardware. Here, &amp;ldquo;dir&amp;rdquo; represents the direction of data frames entering or leaving the nodes, with &amp;quot; + &amp;quot; indicating data frames leaving the node and &amp;quot; − &amp;quot; indicating data frames entering the node.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;test-data-frame-data-structure&#34;&gt;Test data frame data structure&lt;/h2&gt;
+&lt;p&gt;In order to analyze the end-to-end latency of each data frame on complex network topologies, we have established specific guidelines for the content of data segments in the Ethernet frame structure. The structure of time-sensitive networking test data frames is as shown in the following table.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;ield&lt;/th&gt;
+&lt;th&gt;Byte Length&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Destination Address&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Destination node MAC address&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Source Address&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Source node MAC address&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;VLAN Tag&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Divided into four fields: VLAN Data Frame Type (0x8100), Priority, Canonical Format Indicator, and VLAN Number&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Data Frame Type&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Used to identify test data frames, set to 0x66ab&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reserved Bits&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;$t^+$ (TX Timestamp)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;Timestamp when transmitted from the source node&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;$t^-$ (RX Timestamp)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;Timestamp when received by the destination node&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Data Stream ID (SEQ_ID)&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Unique identifier for each data stream&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Data Frame ID (PKT_ID)&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Sequence number of data frames within each data stream, starting from 0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;module-design&#34;&gt;Module Design&lt;/h2&gt;
+&lt;p&gt;The overall module design for ZIGGO Evaluation Toolkit is depicted in the following diagram. The Time Synchronization module used by the Toolkit shares a design that is nearly identical to the Switch, and the diagram does not provide extensive details on the time synchronization-related modules.&lt;/p&gt;
+&lt;p&gt;The configuration module in the PS section (&lt;code&gt;software/pkt_gen_main.cpp&lt;/code&gt;) communicates with the Data Frame Generation module by using the UIO driver and AXI4-Lite interface to send the transmission rules for the test data frames to relevant registers in the Data Frame Generation module (specifically, &lt;code&gt;hardware/IP_repo/pkt_gen_controller_v1.1/pkt_gen_controller_1.1/hdl/pkt_gen_controller_v1_1.v&lt;/code&gt; is responsible for configuration, and &lt;code&gt;hardwire/HDL/axi_packet_generator.v&lt;/code&gt; is responsible for generating and transmitting the data frames) using the global synchronized time as a reference for timing.&lt;/p&gt;
+&lt;p&gt;The Timestamp Marking module (&lt;code&gt;hardwire/HDL/hw_timestamp/tsu/tsu_axis_tx.v&lt;/code&gt; and     &lt;code&gt;hardwire/HDL/hw_timestamp/tsu/tsu_axis_rx.v&lt;/code&gt;) is located at the send and receive ports of the Ziggo-Evaluation-Toolkit. It is used to record the hardware timestamps of sent and received data frames within the test data frames.&lt;/p&gt;
+&lt;p&gt;The received data frames are ultimately uploaded to the PS section via a DMA channel (in our design, we currently use a time-synchronized DMA channel for transmitting test data frames) for statistical analysis (handled in the &lt;code&gt;process_critical_frame&lt;/code&gt; function in &lt;code&gt;software/pkt_gen_control/pkt_gen.c&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./device_arch.png&#34; alt=&#34;device_arch&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The maximum frame transmission period (superperiod parameter in &lt;code&gt;pkt_gen_main.cpp&lt;/code&gt;) refers to the upper limit on the periodicity for sending data streams from the toolkit. Within this maximum frame transmission period, the Data Frame Generation module allocates a maximum of 32 time slots for all data streams. Each time slot is used to send all the data frames for the corresponding data stream at the specified transmission time.&lt;/p&gt;
+&lt;p&gt;As illustrated in the diagram, the evaluation toolkit sends two types of data streams: Stream 𝐹1 with a transmission period of 2𝑇 and Stream 𝐹2 with a transmission period of 4𝑇. The maximum frame transmission period for the evaluation toolkit is 6𝑇. In this scenario, the Data Frame Generation module sets up 5 time slots within the maximum frame transmission period and sends test data frames in sequential order according to the specified time slots.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./example_pkt_gen_period.png&#34; alt=&#34;example_pkt_gen_period&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Users can configure the Ziggo-Evaluation-Toolkit to generate multiple data streams, and the configuration parameters for each data stream are as follows, with clear explanations provided in the comments of the &lt;code&gt;pkt_gen.h&lt;/code&gt; header file:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-C++&#34; data-lang=&#34;C++&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// pkt_gen_app\pkt_gen_control\pkt_gen.h
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/**
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt; * @brief Set the pkt gen slot object
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt; * 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt; * @param slot_id 0~31, indicate a slot in pkt_gen IP core
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt; *      IMPORTANT: tx_offset for each slot id should be monotonic increasing
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt; * @param seq_id sequence ID that uniquely identify a stream
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt; *              To further utilize this field, it may be {job_id: 8bit, flow_id: 8bit}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt; * @param pkt_number number of packets in one sent, should be 1
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt; * @param pkt_id_start start of pkt_id
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt; * @param pkt_id_update update of next pkt_id
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt; * @param tx_offset transmission time inside a period, in ns
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt; * @param src_mac 6Byte array
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt; * @param dest_mac 6Byte array
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt; * @return int 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt; */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;set_pkt_gen_slot&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;slot_id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;uint16_t&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;seq_id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;uint16_t&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pkt_number&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;uint32_t&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pkt_id_start&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;kt&#34;&gt;uint32_t&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pkt_id_update&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int64_t&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tx_offset&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;uint8_t&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;src_mac&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;uint8_t&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dest_mac&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The Timestamp Marking Module will write the timestamp of the current synchronized clock into the outgoing data frame just before it is transmitted by the MAC controller of the toolkit. When the MAC controller in the PL (Programmable Logic) receives the first bit of data in the frame from the physical link, the Timestamp Marking Module records the timestamp of the current synchronized clock. It subsequently writes this timestamp into the data frame during the packet reception process and hands it over to the statistical analysis module in the PS (Processing System) section for further analysis and processing.&lt;/p&gt;
+&lt;h3 id=&#34;correspondence-between-software-and-hardware-registers&#34;&gt;Correspondence between software and hardware registers&lt;/h3&gt;
+&lt;p&gt;The correspondence in terms of time synchronization is the same as in the Ziggo TSN Switch.&lt;/p&gt;
+&lt;p&gt;In this section, we will primarily focus on the correspondence related to data frame transmission configuration. The software registers&amp;rsquo; addresses can be found in &lt;code&gt;software/pkt_gen_control/pkt_gen.c&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-C++&#34; data-lang=&#34;C++&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// define global register address
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;#define GLOBAL_PERIOD_NS    0x00000000
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#define GLOBAL_OFFSET_NS    0x00000008
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#define SEQ_VALID           0x00000010
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#define SEQ_ENABLE_VLAN     0x00000014
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#define WRITE_LOCK          0x00000018
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// define write lock value
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;#define NOT_WRITING     0x00000001
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#define WRITING         0x00000000
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// define address pointer for sequences
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;#define SEQ_CONTENT     0x0000001c
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The hardware registers are located in &lt;code&gt;tsn_device\IP_repo\pkt_gen_controller_v1.1\pkt_gen_controller_1.1\hdl\pkt_gen_controller_v1_1_S00_AXI.v&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;slv_reg_wren&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;begin&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;case&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;axi_awaddr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ADDR_LSB&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;OPT_MEM_ADDR_BITS&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ADDR_LSB&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;mi&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;h000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;C_S_AXI_DATA_WIDTH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;              &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;S_AXI_WSTRB&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;begin&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;c1&#34;&gt;// Respective byte enables are asserted as per write strobes 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;                &lt;span class=&#34;c1&#34;&gt;// Slave register 0
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;                &lt;span class=&#34;n&#34;&gt;slv_reg0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;S_AXI_WDATA&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;              &lt;span class=&#34;n&#34;&gt;end&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;mi&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;h001&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;C_S_AXI_DATA_WIDTH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;              &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;S_AXI_WSTRB&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;begin&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;c1&#34;&gt;// Respective byte enables are asserted as per write strobes 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;                &lt;span class=&#34;c1&#34;&gt;// Slave register 1
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;                &lt;span class=&#34;n&#34;&gt;slv_reg1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;S_AXI_WDATA&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;              &lt;span class=&#34;n&#34;&gt;end&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;mi&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;h002&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;C_S_AXI_DATA_WIDTH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;              &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;S_AXI_WSTRB&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;begin&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;c1&#34;&gt;// Respective byte enables are asserted as per write strobes 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;                &lt;span class=&#34;c1&#34;&gt;// Slave register 2
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;                &lt;span class=&#34;n&#34;&gt;slv_reg2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;S_AXI_WDATA&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;byte_index&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;              &lt;span class=&#34;n&#34;&gt;end&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;...&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In this context, the hardware registers with names starting with &amp;ldquo;slv_reg&amp;rdquo; are each 32 bits wide, and their addresses are spaced by 4 bytes. So, for example, if the software-level address is $0x00000018$, you need to divide this address by 4, which results in $ 24/4 = 6$. Therefore, this address corresponds to the hardware register &amp;ldquo;&lt;code&gt;slv_reg6&lt;/code&gt;&amp;rdquo; in the hardware module. This helps establish the correspondence between software and hardware registers.&lt;/p&gt;
+&lt;h3 id=&#34;offline-analysis-and-design&#34;&gt;Offline Analysis and Design&lt;/h3&gt;
+&lt;p&gt;In the &lt;code&gt;offline_analyze&lt;/code&gt; branch of the Toolkit, we perform packet capture and analysis by forwarding packets from the Toolkit to a powerful desktop computer after the timestamps the incoming packets. This method ensures that even at gigabit speeds, no packets are dropped, and there are relatively minor hardware changes.&lt;/p&gt;
+&lt;p&gt;One aspect of the modification is that timestamps are not added to the data frames when they are transmitted from the toolkit. This can be seen in the &lt;code&gt;HDL/trimode_mac/simple_mac_no_shared.v&lt;/code&gt; file where the &amp;ldquo;tsu_axis_tx&amp;rdquo; section is commented out.&lt;/p&gt;
+&lt;p&gt;Another aspect is the modification of the &amp;ldquo;frame_type&amp;rdquo; to change the direction of data frames. Previously, both PTP frames and test data frames were uploaded to the PS section via time-synchronized DMA, with IT traffic uploaded to PS_ETH. This split the traffic into two directions (&amp;ldquo;axis_switch_1_2&amp;rdquo;). Now, it has been split into three directions (&amp;ldquo;axis_switch_1_3&amp;rdquo;). For offline analysis, only PTP frames need to be transferred to the PS, while test data frames need to be separated and sent out from ETH2. This requires a finer-grained separation of traffic.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;c1&#34;&gt;// separate IT frames, ptp frames and critical frames
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;axis_switch_1_3&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;axis_switch_1_3_inst&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;aclk&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rx_fifo_clock&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;                    &lt;span class=&#34;c1&#34;&gt;// input wire aclk
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;aresetn&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rx_fifo_resetn&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;              &lt;span class=&#34;c1&#34;&gt;// input wire aresetn
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s_axis_tvalid&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rx_axis_fifo_tvalid_8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;// input wire [0 : 0] s_axis_tvalid
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s_axis_tready&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rx_axis_fifo_tready_8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;// output wire [0 : 0] s_axis_tready
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s_axis_tdata&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rx_axis_fifo_tdata_8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;    &lt;span class=&#34;c1&#34;&gt;// input wire [7 : 0] s_axis_tdata
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s_axis_tlast&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rx_axis_fifo_tlast_8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;    &lt;span class=&#34;c1&#34;&gt;// input wire [0 : 0] s_axis_tlast
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s_axis_tdest&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;frame_type&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;    &lt;span class=&#34;c1&#34;&gt;// input wire [1 : 0] s_axis_tdest
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;m_axis_tvalid&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rx_axis_it_fifo_tvalid&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;rx_axis_ptp_fifo_tvalid&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tx_axis_fifo_legacy_tvalid&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]}),&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;// output wire [2 : 0] m_axis_tvalid
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;m_axis_tready&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rx_axis_it_fifo_tready&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;rx_axis_ptp_fifo_tready&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tx_axis_fifo_legacy_tready&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]}),&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;// input wire [2 : 0] m_axis_tready
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;m_axis_tdata&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rx_axis_it_fifo_tdata&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;rx_axis_ptp_fifo_tdata&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tx_axis_fifo_legacy_tdata&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]}),&lt;/span&gt;    &lt;span class=&#34;c1&#34;&gt;// output wire [23 : 0] m_axis_tdata
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;m_axis_tlast&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rx_axis_it_fifo_tlast&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;rx_axis_ptp_fifo_tlast&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tx_axis_fifo_legacy_tlast&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]}),&lt;/span&gt;    &lt;span class=&#34;c1&#34;&gt;// output wire [2 : 0] m_axis_tlast
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;m_axis_tdest&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt;    &lt;span class=&#34;c1&#34;&gt;// output wire [5 : 0] m_axis_tdest
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s_decode_err&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;    &lt;span class=&#34;c1&#34;&gt;// output wire [0 : 0] s_decode_err
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;tx_axis_fifo_legacy_tdata[1]&lt;/code&gt; indicates sending from ETH2.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🆒 Getting start</title>
+      <link>http://localhost:1313/device/getting-started/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/device/getting-started/</guid>
+      <description>&lt;h2 id=&#34;table-of-content&#34;&gt;Table of Content&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#table-of-content&#34;&gt;Table of Content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#folder-structure&#34;&gt;Folder Structure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction-to-git-branches&#34;&gt;Introduction to git branches&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#building-and-starting-the-tsnperf&#34;&gt;Building and Starting the TSNPerf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;folder-structure&#34;&gt;Folder Structure&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── docs                     //documents &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; ZIGGO
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── figs                     //figures &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; docs
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── hardware                //hareware code, &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; PL part&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;pkt_gen, &lt;span class=&#34;nb&#34;&gt;time&lt;/span&gt; sync in FPGA&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── readme.md                  //readme &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; whole project
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── software                //software code, &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; ps part&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;pkt_gen, &lt;span class=&#34;nb&#34;&gt;time&lt;/span&gt; sync&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└── testbed-build           //code &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; building testbed
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;introduction-to-git-branches&#34;&gt;Introduction to git branches&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Branch Name&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Basic Function&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Packet Resize&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Online Analyze&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Offline Analyze&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;main&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;√&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;√&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;packet_resize&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;√&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;√&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;√&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;offline_analyze&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;√&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;√&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The branches of TSNPerf submitted this time can be divided into three categories. But the main branch is inconvenient to use in two ways. In order to solve the above two limitations, we have also submitted two patch branches.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;main&lt;/code&gt; branch contains basic time synchronization and pkt_gen functions, as well as online analysis functions. However, its limitation is that it can only send Ethernet of MTU (1500B) size, and due to the limited performance of the zynq development board, online analysis may cause packet loss.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;packet_resize&lt;/code&gt; branch can send Ethernet frames of any size (64B-1500B).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;offline_analyse&lt;/code&gt; branch can forward the data packets to the PC for offline analysis to avoid packet loss.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note1: When switch to &amp;lsquo;packet_resize&amp;rsquo; branch, you also need to modify the &lt;code&gt;software/config/flow.json&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;#34;job_id&amp;#34;: 0, 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;#34;flow_id&amp;#34;: 0,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;#34;src&amp;#34;: 1,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;#34;dst&amp;#34;: 2,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;#34;period&amp;#34;: 2048,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;#34;MD&amp;#34;: 1024,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &amp;#34;packet_size&amp;#34;: 750 // add this attribute 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note2: When switch to &amp;lsquo;offline_anaylze&amp;rsquo; branch, you need to link device to anthor PC (linux) by wire in ETH1.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;building-and-starting-the-tsnperf&#34;&gt;Building and Starting the TSNPerf&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/device/hardware-build/&#34;&gt;Set up the FPGA board and initialize PS system&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/device/software-build/&#34;&gt;Compile software code, run the time synchronization &amp;amp; pkt _gen_app&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🧠 基础知识列表</title>
+      <link>http://localhost:1313/device/basic_knowledge/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/device/basic_knowledge/</guid>
+      <description>&lt;p&gt;我们再次重申，使用或者开发ZIGGO-CaaS-Switch或者ZIGGO-Device是有较高门槛的，您必须掌握一定的软硬件知识。如果您之间没有任何的硬件开发经验，您可能需要慎重考虑自己是否适合这个项目，因为学习这些知识是非常花时间的。&lt;/p&gt;
+&lt;p&gt;学习使用ZIGGO项目比学习FPGA、MCU、ARM等传统开发工具要求更高，想如臂指使一般地使用ZIGGO设备也不是一蹴而就的事情。&lt;/p&gt;
+&lt;p&gt;如果您希望使用ZIGGO项目，您至少应该有以下知识：&lt;/p&gt;
+&lt;h2 id=&#34;硬件知识&#34;&gt;硬件知识&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;计算机组成原理&lt;/li&gt;
+&lt;li&gt;C语言&lt;/li&gt;
+&lt;li&gt;数字电路基础&lt;/li&gt;
+&lt;li&gt;Verilog、VHDL语言&lt;/li&gt;
+&lt;li&gt;良好的英语阅读基础&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;软件知识&#34;&gt;软件知识&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;计算机组成原理&lt;/li&gt;
+&lt;li&gt;计算机网络&lt;/li&gt;
+&lt;li&gt;计算机操作系统&lt;/li&gt;
+&lt;li&gt;C、C++语言&lt;/li&gt;
+&lt;li&gt;tcl脚本&lt;/li&gt;
+&lt;li&gt;良好的英语阅读基础&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🧠 基础知识列表</title>
+      <link>http://localhost:1313/switch/basic_knowledge/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/switch/basic_knowledge/</guid>
+      <description>&lt;p&gt;我们再次重申，使用或者开发ZIGGO-CaaS-Switch或者ZIGGO-Device是有较高门槛的，您必须掌握一定的软硬件知识。如果您之间没有任何的硬件开发经验，您可能需要慎重考虑自己是否适合这个项目，因为学习这些知识是非常花时间的。&lt;/p&gt;
+&lt;p&gt;学习使用ZIGGO项目比学习FPGA、MCU、ARM等传统开发工具要求更高，想如臂指使一般地使用ZIGGO设备也不是一蹴而就的事情。&lt;/p&gt;
+&lt;p&gt;如果您希望使用ZIGGO项目，您至少应该有以下知识：&lt;/p&gt;
+&lt;h2 id=&#34;硬件知识&#34;&gt;硬件知识&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;计算机组成原理&lt;/li&gt;
+&lt;li&gt;C语言&lt;/li&gt;
+&lt;li&gt;数字电路基础&lt;/li&gt;
+&lt;li&gt;Verilog、VHDL语言&lt;/li&gt;
+&lt;li&gt;良好的英语阅读基础&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;软件知识&#34;&gt;软件知识&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;计算机组成原理&lt;/li&gt;
+&lt;li&gt;计算机网络&lt;/li&gt;
+&lt;li&gt;计算机操作系统&lt;/li&gt;
+&lt;li&gt;C、C++语言&lt;/li&gt;
+&lt;li&gt;tcl脚本&lt;/li&gt;
+&lt;li&gt;良好的英语阅读基础&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

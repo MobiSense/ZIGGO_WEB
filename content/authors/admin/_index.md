@@ -21,8 +21,8 @@ role: Associate Professor, IEEE Fellow
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Tsinghua University
+    url: https://www.Tsinghua.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
 bio: His research interests include Internet of Things, Industrial Internet, sensing and positioning, edge computing, etc. 
