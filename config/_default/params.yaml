@@ -39,15 +39,15 @@ header:
       filename: "logo.svg"
     button:
       enable: true
-      text: "Get Started"
-      url: "https://hugoblox.com/templates/"
+      text: "Edit on Github"
+      url: "https://github.com/MobiSense/ZIGGO_WEB/"
     show_search: true
     show_theme_chooser: true
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} My Company'
+    notice: '© {year}  ZIGGO, TNS, School of Software, Tsinghua University . All rights reserved.'
 
 # Localization
 locale:

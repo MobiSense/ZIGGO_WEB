@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: ZHENG YANG | 杨铮
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ZHENG YANG
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: ZHENG
+last_name: YANG
 
 # Status emoji
 status:
@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Associate Professor, IEEE Fellow
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -25,13 +25,13 @@ organizations:
     url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: His research interests include Internet of Things, Industrial Internet, sensing and positioning, edge computing, etc. 
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'http://tns.thss.tsinghua.edu.cn/~yangzheng/'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
@@ -54,6 +54,7 @@ highlight_name: true
 website: ""
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include
-distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops
-self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Zheng Yang is an associate professor in School of Software and BNRist, Tsinghua University, Beijing, China. He received his B.E. degree in the Department of Computer Science from Tsinghua University, and his Ph.D. degree in the Department of Computer Science and Engineering of Hong Kong University of Science and Technology.
+His research interests include Internet of Things, Industrial Internet, sensing and positioning, edge computing, etc. He is an author and co-author of 4 books and over 60 research papers in premier journals and conferences. He received 4 best paper (candidates) awards and has over 13,000 citations with H-index 57.
+
+Ongoing projects include Widar (wireless and sensorless sensing), Ziggo (Time-Sensitive Network Switch), MoSen (mm-level optical positioning), CityPulse (smart city), etc.

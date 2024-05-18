@@ -10,7 +10,7 @@ design:
 sections:
   - block: hero
     content:
-      title: Build Your Landing Pages with Hugo Blox
+      title: ZIGGO TSN Platform
       text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
       primary_action:
         text: Get Started
@@ -20,10 +20,10 @@ sections:
         text: Read the docs
         url: https://docs.hugoblox.com
       announcement:
-        text: "Announcing the release of version 1."
-        link:
-          text: "Read more"
-          url: "/blog/"
+        text: "Our ZIGGO has already iterated to version 2.0 !!!"
+        # link:
+        #   text: "Read more"
+        #   url: "/blog/"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -42,8 +42,8 @@ sections:
       items:
         - statistic: "1M+"
           description: |
-            Websites built  
-            with Hugo Blox
+            Code has reached
+            over 1M+ lines.
         - statistic: "10k+"
           description: |
             GitHub stars  
@@ -62,18 +62,18 @@ sections:
     id: features
     content:
       title: Features
-      text: Build your site with blocks 🧱
+      text: ZIGGO is   🧱
       items:
-        - name: Optimized SEO
+        - name: Flexible
           icon: magnifying-glass
           description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
+        - name: Standard-Compliant
           icon: bolt
           description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
+        - name: Control-function-virtualized
           icon: sparkles
           description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
+        - name: Open-source
           icon: code-bracket
           description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
         - name: Highly Rated
@@ -83,10 +83,10 @@ sections:
           icon: rectangle-group
           description: Build your pages with blocks - no coding required!
   - block: cta-image-paragraph
-    id: solutions
+    id: products
     content:
       items:
-        - title: Build your future-proof website
+        - title: ZIGGO TSNPerf
           text: As easy as 1, 2, 3!
           feature_icon: check
           features:
@@ -98,7 +98,19 @@ sections:
           button:
             text: Get Started
             url: https://hugoblox.com/templates/
-        - title: Large Community
+        - title: ZIGGO Switch
+          text: Join our large community on Discord - ask questions and get live responses
+          feature_icon: bolt
+          features:
+            - "Dedicated support channel"
+            - "3,000+ users on Discord"
+            - "Share your site and get feedback"
+          # Upload image to `assets/media/` and reference the filename here
+          image: coffee.jpg
+          button:
+            text: Join Discord
+            url: https://discord.gg/z8wNYzb
+        - title: ZIGGO Device
           text: Join our large community on Discord - ask questions and get live responses
           feature_icon: bolt
           features:
@@ -113,27 +125,88 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: testimonials
+  # - block: testimonials
+  #   content:
+  #     title: "Contact us"
+  #     text: "Institute of Trustworthy Network and System, School of Software, Tsinghua University"
+  #     items:
+  #       - name: "ZHENG YANG | 杨铮"
+  #         role: "Associate Professor, IEEE Fellow"
+  #         # Upload image to `assets/media/` and reference the filename here
+  #         image: "yangzheng_big.PNG"
+  #         # text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
+  #       - name: "FAN DANG | 党凡"
+  #         role: "Assitant Professor"
+  #         # Upload image to `assets/media/` and reference the filename here
+  #         image: "dangfan.jpg"
+  #         #text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
+  #   design:
+  #     spacing:
+  #       # Reduce bottom spacing so the testimonial appears vertically centered between sections
+  #       padding: ["6rem", 0, 0, 0]
+  # - block: testimonials
+    # id: contact
+  - block: markdown
+    id: contact
     content:
-      title: ""
-      text: ""
-      items:
-        - name: "Hugo Smith"
-          role: "Marketing Executive at X"
-          # Upload image to `assets/media/` and reference the filename here
-          image: "testimonial-1.jpg"
-          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
+      title: CONTACT US
+      text: <p style="text-align:center;"> Room 211, District 11, East Main Building, Tsinghua University, Haidian District, Beijing, China, 100084</p>
+        <h1 style="font-size:22px">Faucty</h1>
+        <p style="color:orange"><a href="http://tns.thss.tsinghua.edu.cn/~yangzheng/">Zheng Yang</a>, <a href="https://people.gix.tsinghua.edu.cn/dangfan/">Fan Dang</a></p>
+        <h1 style="font-size:22px">Student</h1>
+        <p style="color:orange">Xiaowu He, Zeyu Wang, Xiangwen Zhuge</p>
+        <h1 style="font-size:22px">Graduate</h1>
+        <p style="color:orange">Yi Zhao, Jiahang Wu, Hao Cao, Liang Dong, Xinjun Cai</p>
+        <h1 style="font-size:28px"><strong style="color:#808080;">Email </strong></h1>
+        <p><strong>Prof. Zheng Yang</strong>：hmilyyz[AT]gmail[DOT]com</p>
     design:
-      spacing:
-        # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, 0, 0]
-  - block: cta-card
-    content:
-      title: Build your future-proof website
-      text: As easy as 1, 2, 3!
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+      padding: [0,0,0,0]
+  - block: markdown
+    id: publication
+    content: 
+      title: PUBLICATIONS
+      text:
+        <ol style="width:180%; text-align:justify;">
+          <li>Zeyu Wang*, Xiaowu He*, Xiangwen Zhuge, Shen Xu, Fan Dang, Jingao Xu and Zheng Yang
+            <b>"Enabling Network Diagnostics in Time-Sensitive Networking:Protocol, Algorithm, and Hardware"</b>, IEEE <b>IWQoS</b>, 2024.
+            <a href="http://tns.thss.tsinghua.edu.cn/ziggo/data/TSNCard.pdf" target="_blank">[PDF]</a>
+          </li>
+          <li>Xiangwen Zhuge, Xinjun Cai, Xiaowu He, Zeyu Wang, Fan Dang, Wang Xu and Zheng Yang
+            <b>"InNetScheduler:In-network scheduling for time- and event-triggered critical traffic in TSN"</b>, IEEE <b>INFOCOM</b>, 2024.
+            <a href="http://tns.thss.tsinghua.edu.cn/ziggo/data/InNetScheduler.pdf" target="_blank">[PDF]</a>
+          </li>
+          <li>Zeyu Wang, Jingao Xu, Xu Wang, Xiangwen Zhuge, Xiaowu He, Zheng Yang
+            <b>"Industrial Knee-jerk:In-Network Simultaneous Planning and Control on a TSN Switch"</b>, ACM <b>MobiSys</b>, 2023.
+            <a href="http://tns.thss.tsinghua.edu.cn/ziggo/data/industrial-knee-jerk.pdf" target="_blank">[PDF]</a>
+          </li>
+          <li>Zheng Yang, Yi Zhao, Fan Dang, Xiaowu He, Jiahang Wu, Hao Cao, Zeyu Wang, Yunhao Liu
+            <b>"CaaS:Enabling Control-as-a-Service for Time-Sensitive Networking"</b>, IEEE <b>INFOCOM</b>, 2023.
+            <a href="http://tns.thss.tsinghua.edu.cn/ziggo/data/caas.pdf" target="_blank">[PDF]</a>
+          </li>
+          <li>Xiaowu He, Xiangwen Zhuge, Fan Dang, Wang Xu, Zheng Yang
+            <b>"DeepScheduler:Enabling Flow-Aware Scheduling in Time-Sensitive Networking"</b>, IEEE <b>INFOCOM</b>, 2023.
+            <a href="http://tns.thss.tsinghua.edu.cn/ziggo/data/deepscheduler.pdf" target="_blank">[PDF]</a>
+          </li>
+          <li>Yi Zhao, Zheng Yang, Xiaowu He, Jiahang Wu, Hao Cao, Liang Dong, Fan Dang, Yunhao Liu
+            <b>"E-TSN:Enabling Event-triggered Critical Traffic in Time-Sensitive Networking for Industrial Applications"</b>, IEEE <b>ICDCS</b>, 2022.
+            <a href="http://tns.thss.tsinghua.edu.cn/ziggo/data/e-tsn.pdf" target="_blank">[PDF]</a>
+          </li>
+        </ol>
+
+      # add **Faulty**: Zheng Yang, Fan Dang add **Members**: Yi Zhao, Xiaowu He, Jiahang Wu, Zeyu Wang, Hao Cao, Xiangwen Zhuge 
+  # - block: cta-card
+  #   content:
+  #     title: Get use of ZIGGO !!!
+  #     text: It's not easy, but the effort is worth it.
+  #     button:
+  #       text: Get Started
+  #       url: https://hugoblox.com/templates/
+  #     button:
+  #       text: Get Started
+  #       url: https://hugoblox.com/templates/
+  #     button:
+  #       text: Get Started
+  #       url: https://hugoblox.com/templates/
     design:
       card:
         # Card background color (CSS class)

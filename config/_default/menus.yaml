@@ -9,12 +9,28 @@ main:
   - name: Features
     url: /#features
     weight: 20
-  - name: Solutions
-    url: /#solutions
+  - name: Products
+    url: /#products
     weight: 30
-  - name: Resources
+  - name: Contact
+    url: /#contact
     weight: 40
-    hasChildren: true
-  - parent: Resources
-    name: Blog
-    url: blog/
+  - name: Publication
+    url: /#publication
+    weight: 45
+  - parent: Tutorial
+    name: Device
+    url: device/
+    weight: 50
+  - parent: Tutorial
+    name: Switch
+    url: switch/
+    weight: 20
+  - parent: Tutorial
+    name: TSNPerf
+    url: tsnperf/
+    weight: 10
+
+    # name: 
+  # - name: Contact
+  #   url: /#Contact
