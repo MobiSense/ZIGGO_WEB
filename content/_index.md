@@ -103,7 +103,7 @@ sections:
           text: ZIGGO presents a hardware-software co-designed TSN switch
           feature_icon: bolt
           features:
-            - "Simultaneous transmission of both IT and OT traffic with QoS guarantee"
+            - "Simultaneous transmission of IT and OT traffic with QoS guarantee"
             - "Nanosecond time synchronization and microsecond network delay"
             - "IEEE 802.1AS, Qav, Qbv, and Qcc support"
           # Upload image to `assets/media/` and reference the filename here
