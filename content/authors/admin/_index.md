@@ -30,22 +30,24 @@ bio: His research interests include Internet of Things, Industrial Internet, sen
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
+  - icon: hero/user
     url: 'http://tns.thss.tsinghua.edu.cn/~yangzheng/'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
-  - icon: academicons/cv
-    url: uploads/resume.pdf
-    label: Download my resume
-  - icon: rss
-    url: ./post/index.xml
-    label: Subscribe to my blog via RSS feed
+  - icon: brands/google-scholar
+    url: 'https://scholar.google.com/citations?user=ExRe-64AAAAJ'
+  - icon: hero/building-office-2
+    url: 'http://tns.thss.tsinghua.edu.cn/'
+  # - icon: brands/instagram
+  #   url: 'http://tns.thss.tsinghua.edu.cn/~yangzheng/'
+  # - icon: brands/linkedin
+  #   url: 'http://tns.thss.tsinghua.edu.cn/~yangzheng/'
+  # # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
+  # - icon: academicons/cv
+  #   url: 'http://tns.thss.tsinghua.edu.cn/~yangzheng/'
+  #   label: Download my resume
+  # - icon: rss
+  #   url: 'http://tns.thss.tsinghua.edu.cn/~yangzheng/'
+  #   label: Subscribe to my blog via RSS feed
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
