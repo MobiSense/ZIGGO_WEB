@@ -43,32 +43,6 @@
     </item>
     
     <item>
-      <title>👩🏼‍🏫 准备清单</title>
-      <link>http://localhost:1313/switch/require/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/switch/require/</guid>
-      <description>&lt;h2 id=&#34;软件环境清单&#34;&gt;软件环境清单&lt;/h2&gt;
-&lt;h3 id=&#34;vivada-开发环境&#34;&gt;Vivada 开发环境&lt;/h3&gt;
-&lt;p&gt;Vivado 是开发板的硬件开发程序。&lt;/p&gt;
-&lt;p&gt;Vivado 软件的 Xilinx 官方下载地址： &lt;a href=&#34;http://china.xilinx.com/support/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://china.xilinx.com/support/download.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;本开发团队使用的是Vivado &lt;em&gt;&lt;strong&gt;2020.1&lt;/strong&gt;&lt;/em&gt;版本，我们建议ZIGGO项目使用者也使用相同版本以免一些不必要的麻烦。&lt;/p&gt;
-&lt;p&gt;具体的安装流程可以参照 &lt;a href=&#34;https://cloud.tsinghua.edu.cn/f/f9f1a4f92a344e8e9c2c/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZYNQ应用教程&lt;/a&gt; &lt;strong&gt;第三章Vivado开发环境&lt;/strong&gt; 进行安装。&lt;/p&gt;
-&lt;h3 id=&#34;mobaxterm&#34;&gt;MobaXterm&lt;/h3&gt;
-&lt;p&gt;MobaXterm是串口连接工具，我们在&lt;a href=&#34;http://localhost:1313/switch/hardware-build/&#34;&gt;hardware-build&lt;/a&gt;中“Launch the Board and log in”这一章节进行了使用介绍。&lt;/p&gt;
-&lt;p&gt;MobaXterm的官方下载地址：&lt;a href=&#34;https://mobaxterm.mobatek.net/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MobaXterm Xserver with SSH, telnet, RDP, VNC and X11 - Download (mobatek.net)&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;硬件准备清单&#34;&gt;硬件准备清单&lt;/h2&gt;
-&lt;h3 id=&#34;alinx7021开发板&#34;&gt;Alinx7021开发板&lt;/h3&gt;
-&lt;img src=&#34;./alinx7021.png&#34; alt=&#34;Alinx&#34; style=&#34;zoom:50%;&#34; /&gt;
-&lt;h3 id=&#34;sd启动卡&#34;&gt;SD启动卡&lt;/h3&gt;
-&lt;p&gt;SD启动卡中存储着操作系统，建议容量 $\geq$ 32G。&lt;/p&gt;
-&lt;h3 id=&#34;必要的线材&#34;&gt;必要的线材&lt;/h3&gt;
-&lt;p&gt;包括网线、数据线等。&lt;/p&gt;
-&lt;h3 id=&#34;普通交换机&#34;&gt;普通交换机&lt;/h3&gt;
-&lt;p&gt;如果使用的开发板数量较多，可以考虑将所有开发板连接到普通交换机再通过普通交换机连接至PC（通过网线）进行管理和使用。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>💦 Software:Time Sync &#43; Config for CaaS Switches</title>
       <link>http://localhost:1313/switch/software_build/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
@@ -674,6 +648,32 @@ Our GCL is represented by 9 bits, with the highest bit representing whether the 
 &lt;li&gt;tcl脚本&lt;/li&gt;
 &lt;li&gt;良好的英语阅读基础&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>👩🏼‍🏫 准备清单</title>
+      <link>http://localhost:1313/switch/require/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/switch/require/</guid>
+      <description>&lt;h2 id=&#34;软件环境清单&#34;&gt;软件环境清单&lt;/h2&gt;
+&lt;h3 id=&#34;vivada-开发环境&#34;&gt;Vivada 开发环境&lt;/h3&gt;
+&lt;p&gt;Vivado 是开发板的硬件开发程序。&lt;/p&gt;
+&lt;p&gt;Vivado 软件的 Xilinx 官方下载地址： &lt;a href=&#34;http://china.xilinx.com/support/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://china.xilinx.com/support/download.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本开发团队使用的是Vivado &lt;em&gt;&lt;strong&gt;2020.1&lt;/strong&gt;&lt;/em&gt;版本，我们建议ZIGGO项目使用者也使用相同版本以免一些不必要的麻烦。&lt;/p&gt;
+&lt;p&gt;具体的安装流程可以参照 &lt;a href=&#34;https://cloud.tsinghua.edu.cn/f/f9f1a4f92a344e8e9c2c/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZYNQ应用教程&lt;/a&gt; &lt;strong&gt;第三章Vivado开发环境&lt;/strong&gt; 进行安装。&lt;/p&gt;
+&lt;h3 id=&#34;mobaxterm&#34;&gt;MobaXterm&lt;/h3&gt;
+&lt;p&gt;MobaXterm是串口连接工具，我们在&lt;a href=&#34;http://localhost:1313/switch/hardware-build/&#34;&gt;hardware-build&lt;/a&gt;中“Launch the Board and log in”这一章节进行了使用介绍。&lt;/p&gt;
+&lt;p&gt;MobaXterm的官方下载地址：&lt;a href=&#34;https://mobaxterm.mobatek.net/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MobaXterm Xserver with SSH, telnet, RDP, VNC and X11 - Download (mobatek.net)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;硬件准备清单&#34;&gt;硬件准备清单&lt;/h2&gt;
+&lt;h3 id=&#34;alinx7021开发板&#34;&gt;Alinx7021开发板&lt;/h3&gt;
+&lt;img src=&#34;./alinx7021.png&#34; alt=&#34;Alinx&#34; style=&#34;zoom:50%;&#34; /&gt;
+&lt;h3 id=&#34;sd启动卡&#34;&gt;SD启动卡&lt;/h3&gt;
+&lt;p&gt;SD启动卡中存储着操作系统，建议容量 $\geq$ 32G。&lt;/p&gt;
+&lt;h3 id=&#34;必要的线材&#34;&gt;必要的线材&lt;/h3&gt;
+&lt;p&gt;包括网线、数据线等。&lt;/p&gt;
+&lt;h3 id=&#34;普通交换机&#34;&gt;普通交换机&lt;/h3&gt;
+&lt;p&gt;如果使用的开发板数量较多，可以考虑将所有开发板连接到普通交换机再通过普通交换机连接至PC（通过网线）进行管理和使用。&lt;/p&gt;
 </description>
     </item>
     

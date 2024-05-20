@@ -43,32 +43,221 @@
     </item>
     
     <item>
-      <title>🎉 How to contribute</title>
-      <link>http://localhost:1313/switch/contributing/</link>
+      <title>📕 CNC脚本使用指南</title>
+      <link>http://localhost:1313/device/cnc_manual/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/switch/contributing/</guid>
-      <description>&lt;h2 id=&#34;reporting-a-bug&#34;&gt;Reporting a bug&lt;/h2&gt;
-&lt;p&gt;File bugs in the &lt;a href=&#34;https://github.com/Horacehxw/Ziggo-CaaS-Switch/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Issue Tracker&lt;/a&gt;. Please follow these guidelines:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Search existing issues first, make sure yours hasn&amp;rsquo;t already been reported.&lt;/li&gt;
-&lt;li&gt;Consider enabling debug mode so that you can provide as much details as possible when reporting the issue.&lt;/li&gt;
-&lt;li&gt;Stay on topic, but describe the issue in detail so that others can &lt;strong&gt;reproduce&lt;/strong&gt; it.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Provide a screenshot&lt;/strong&gt; if possible. A screenshot showing the problem is often more useful than a paragraph describing it.&lt;/li&gt;
-&lt;/ul&gt;
+      <guid>http://localhost:1313/device/cnc_manual/</guid>
+      <description>&lt;h2 id=&#34;1-运行脚本前在batchmjs中要配置好以下变量&#34;&gt;1. 运行脚本前，在batch.mjs中要配置好以下变量：&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// IP address format: 192.168.137.*
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// 测试数据
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;conf_default&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;需要执行的配置名称&amp;gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// 时钟主节点
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;master&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;40&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;hosts&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;device&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;44&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;k&#34;&gt;switch&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;40&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;41&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;安装好需要的依赖：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;```bash
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo npm install -g zx@4.3.0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install -r requirements.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm install
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;配置好环境变量，在.bashrc中加入：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;PYTHONPATH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;/home/&amp;lt;用户名&amp;gt;/scripts&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;2-下载好switch和tsnperf的软件代码&#34;&gt;2. 下载好Switch和TSNPerf的软件代码&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;The development team will only answer questions on github issues and reject other forms of questions.&lt;/p&gt;
+&lt;p&gt;（记得提前配置好树莓派和所有板子之间的ssh public key，方便免密登录）&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&#34;contributing-to-ziggos-code&#34;&gt;Contributing to ZIGGO&amp;rsquo;s code&lt;/h2&gt;
-&lt;p&gt;If you want to start contributing to the project&amp;rsquo;s code, please follow these guidelines before creating a pull request:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./batch.mjs clone
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;3-拉取最新的软件代码并同步到远程板子上&#34;&gt;3. 拉取最新的软件代码并同步到远程板子上&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;默认时master分支，如果需要指定分支，需要修改batch.mjs文件中的pull()函数，具体参考注释的部分&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// pull all the latest code
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;pull&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;async&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;cd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;homedir&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;/repos`&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// 如果需要指定分支，类似下面指定qbv-test分支的操作
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// await $`cd pkt_gen_app; git stash; git checkout qbv-test; git pull origin qbv-test; cd ..`
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// await $`cd time_sync_app; git stash; git checkout qbv-test; git pull origin qbv-test; cd ..`
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;await&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Promise&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;all&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;hosts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;all&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;host&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;hosts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;device&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;includes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;host&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;?&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;device&amp;#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;switch&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;===&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;device&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;       &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;`rsync -avPh &lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;homedir&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;/repos/pkt_gen_app root@192.168.137.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;host&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;:~/`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;===&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;switch&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;       &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;`rsync -avPh &lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;homedir&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;/repos/time_sync_app root@192.168.137.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;host&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;:~/;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;同步到所有板子上：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./batch.mjs pull
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;4-使远程所有板子编译代码&#34;&gt;4. 使远程所有板子编译代码&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./batch.mjs build
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;5-将配置文件下发到所有板子上&#34;&gt;5. 将配置文件下发到所有板子上&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./batch.mjs distribute
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;6-开始启动所有板子的程序&#34;&gt;6. 开始启动所有板子的程序&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./batch.mjs launch
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;7-收集延迟和抖动的统计信息&#34;&gt;7. 收集延迟和抖动的统计信息&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./batch.mjs collect
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>📕 ZIGGO Device使用手册</title>
+      <link>http://localhost:1313/device/ziggo_device_manual/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/device/ziggo_device_manual/</guid>
+      <description>&lt;p&gt;There are two analysis methods for ZIGGO Device:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hint: If you want to use offline anaylze, please switch branch to &amp;lsquo;offline_anaylze&amp;rsquo;, and you need to link device to anthor PC(linux) by wire.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;One method is to &lt;code&gt;directly&lt;/code&gt; analyze latency and jitter on the ZIGGO Device. The advantage of this method is that it is convenient and fast. We can directly count the latency and jitter of all received data frames on the Device. However, due to the limited processing power of the development board CPU, when analyzing a large number of data packets (such as sending more than 10 1500B data packets at a time with a cycle of 33ms), packet loss may occur;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./online_analyse.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Another method is to use Device to stamp the received packet and forward it from another port to a powerful desktop computer for packet capture analysis. Even if entering the Device at a gigabit rate, there will be no packet loss. The disadvantage is that a separate program needs to be written offline to analyze the delay and jitter of the packet.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./offline_analyse.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;ziggo-device-directly-analyzes-latency-and-jitter&#34;&gt;ZIGGO Device directly analyzes latency and jitter&lt;/h2&gt;
+&lt;p&gt;During the operation of the  &lt;code&gt;time sync&lt;/code&gt; program, after receiving the test data frame, the program will save the delay information of the data frame in the package under the &lt;code&gt;build/packet_log.csv&lt;/code&gt; file, save the batch statistics of latency and jitter in the critical directory under the build directory at the same time in the &lt;code&gt;build/critical_log.csv&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Example of &lt;code&gt;packet_log.csv&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Seq ID, Pkt ID, TX timestamp, RX timestamp, Latency
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 0, 12683587446, 12683613722, 26276
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1, 12683599662, 12683625970, 26308
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 2, 12683611862, 12683638162, 26300
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 3, 12683624078, 12683650386, 26308
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 4, 12717142039, 12717168273, 26234
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 5, 12717154223, 12717180465, 26242
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 6, 12717166391, 12717192625, 26234
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 7, 12717178575, 12717204825, 26250
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 8, 12750696471, 12750722712, 26241
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 9, 12750708655, 12750734904, 26249
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Example of &lt;code&gt;critical_ log.csv&lt;/code&gt;, where Latency Variance is the variance of Latency:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Seq ID, Received Number, Max pkt_id, Min pkt_id, Loss Rate, Latency Mean, Latency Variance
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 0, 999, 0.000000,  26230, 1199
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 1000, 1999, 0.000000,  26218, 2811
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 2000, 2999, 0.000000,  26218, 2808
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 3000, 3999, 0.000000,  26195, 18331
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 4000, 4999, 0.000000,  26233, 921
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 5000, 5999, 0.000000,  26226, 852
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 6000, 6999, 0.000000,  26226, 5080
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 7000, 7999, 0.000000,  26250, 105272
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 8000, 8999, 0.000000,  26204, 7233
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 9000, 9999, 0.000000,  26205, 7361
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can display the content of the header and the last 5 lines using the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat critical.log &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; head -n1
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat critical.log &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; tail -n5
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;offline-analysis-of-latency-and-jitter&#34;&gt;Offline analysis of latency and jitter&lt;/h2&gt;
+&lt;p&gt;If conducting offline analysis, it is important to note that the hardware used is located at &lt;code&gt;offline_analyze&lt;/code&gt; branch. This version will stamp the key data with a receive timestamp and forward it from ETH2. We need to use a PC equipped with a Linux system to capture packets for analysis.&lt;/p&gt;
+&lt;p&gt;Example of packet capture command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo tcpdump -i enx207bd272812b ether src 00:0a:35:00:00:14 -n -B &lt;span class=&#34;m&#34;&gt;100000&lt;/span&gt; -w packets.pcapng
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;Enx207bd272812b&lt;/code&gt; is the name of the network card, which can be obtained through ifconfig. &lt;code&gt;Src&lt;/code&gt; is used to specify that the captured packet comes from a certain MAC address. &lt;code&gt;-B&lt;/code&gt; is used to specify the buffer size. If packet loss needs to be set to a larger size, you can check the information output after packet capture to see if Dropped by kernel: is 0. If it is not 0, it indicates that there is packet loss in the kernel. &lt;code&gt;-W&lt;/code&gt; specifies the path to save the file.&lt;/p&gt;
+&lt;p&gt;Code for analyzing programs is &lt;code&gt;analyze_packet.py&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python .&lt;span class=&#34;se&#34;&gt;\a&lt;/span&gt;nalyze_packet.py &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;capture file path&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; --step &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;interval&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;At the same time, a packet will be generated in the current directory (&lt;code&gt;packet_log.csv&lt;/code&gt; and &lt;code&gt;critical_log.csv&lt;/code&gt;).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>💦 Software:Time Sync &#43; Config for CaaS Device</title>
+      <link>http://localhost:1313/device/software-build/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/device/software-build/</guid>
+      <description>&lt;p&gt;This repo contains source code to enable TSN/CaaS TSNPerf&amp;rsquo; time synchronization logic and set up packet generation plan.&lt;/p&gt;
+&lt;h2 id=&#34;table-of-content&#34;&gt;Table of Content&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;The top post of the pull request should contain a full, self-contained explanation of the feature: what it does, how it does it, with examples of usage and screenshots. Also explain why you want to add this - what problem does it solve. Do not simply add a text &lt;code&gt;Implement feature #4345&lt;/code&gt; , because the information there will most likely be outdated or confusing (multiple discussions and opinions). The pull request needs to be self-contained.&lt;/li&gt;
-&lt;li&gt;Bug fixes are always welcome.&lt;/li&gt;
-&lt;li&gt;A good way to easily start contributing is to pick and work on a good first issue. We try to make these issues as clear as possible and provide basic info on how the code should be changed, and if something is unclear feel free to ask for more information on the issue.&lt;/li&gt;
-&lt;li&gt;Before adding a new feature, ask about it in the &lt;a href=&#34;https://github.com/Horacehxw/Ziggo-CaaS-Switch/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Issue Tracker&lt;/a&gt; , or check if existing discussions exist to make sure the new functionality is desired.&lt;/li&gt;
-&lt;li&gt;Pull requests that make many changes using an automated tool, like for spell fixing, styling, etc. will not be accepted.&lt;/li&gt;
-&lt;li&gt;Pull requests that address multiple issues will most likely stall and eventually be closed. This is because we might be fine with one of the changes but not with others and untangling that kind of pull request is too much hassle both for maintainers and the person who submitted it. So most of the time someone gives up and the PR gets closed. So please keep the pull request focused on one issue.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Do not mark your reviewer&amp;rsquo;s comments as &amp;ldquo;resolved&amp;rdquo;&lt;/strong&gt;. If you do that, the comments will be hidden and the reviewer will not know what are the pending issues in the pull request. Only the reviewer should resolve the comments.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#table-of-content&#34;&gt;Table of Content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#1-build&#34;&gt;1. Build&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#2-config&#34;&gt;2. Config&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#3-run&#34;&gt;3. Run&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#4-analyze&#34;&gt;4. Analyze&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#41-tsnperf-directly-analyzes-latency-and-jitter&#34;&gt;4.1 TSNPerf directly analyzes latency and jitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#42-offline-analysis-of-latency-and-jitter&#34;&gt;4.2 Offline analysis of latency and jitter&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;1-build&#34;&gt;1. Build&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir build
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; build
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cmake ..
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After successfully build, there should be two executables: &amp;ldquo;time_sync&amp;rdquo; &amp;amp; &amp;ldquo;pkt_gen&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;2-config&#34;&gt;2. Config&lt;/h2&gt;
+&lt;p&gt;The &amp;ldquo;build&amp;rdquo; directory contains topology &amp;amp; TSN/CaaS schedule results.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;config.json: topology file, contains node info (type, mac, ptp ports), link between nodes (with ports), and forwarding table.&lt;/li&gt;
+&lt;li&gt;schedule.json: schedule file, contains each links&amp;rsquo; schedule time interval &amp;amp; each CaaS switch&amp;rsquo;s computation time interval.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(Hints: This is similar to a Ziggo Switch)&lt;/p&gt;
+&lt;h2 id=&#34;3-run&#34;&gt;3. Run&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Start time syncronization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./time_sync
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Start device critical packet generation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./pkt_gen
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;4-analyze&#34;&gt;4. Analyze&lt;/h2&gt;
+&lt;p&gt;There are two analysis methods for TSNPerf:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hint: If you want to use offline anaylze, please switch branch to &amp;lsquo;offline_anaylze&amp;rsquo;, and you need to link device to anthor PC(linux) by wire.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;One method is to directly analyze latency and jitter on the TSNPerf.&lt;/p&gt;
+&lt;p&gt;Another method is to use Device to stamp the received packet and forward it from another port to a powerful desktop computer for packet capture analysis. Even if entering the Device at a gigabit rate, there will be no packet loss. The disadvantage is that a separate program needs to be written offline to analyze the delay and jitter of the packet.&lt;/p&gt;
+&lt;h3 id=&#34;41-tsnperf-directly-analyzes-latency-and-jitter&#34;&gt;4.1 TSNPerf directly analyzes latency and jitter&lt;/h3&gt;
+&lt;p&gt;During the operation of the  &lt;code&gt;time sync&lt;/code&gt; program, after receiving the test data frame, the program will save the delay information of the data frame in the package under the &lt;code&gt;build/packet_log.csv&lt;/code&gt;   file, save the batch statistics of latency and jitter in the critical directory under the build directory at the same time in the &lt;code&gt;build/critical_log.csv&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;You can display the content of the header and the last 5 lines using the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat critical.log &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; head -n1
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat critical.log &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; tail -n5
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;42-offline-analysis-of-latency-and-jitter&#34;&gt;4.2 Offline analysis of latency and jitter&lt;/h3&gt;
+&lt;p&gt;If conducting offline analysis, it is important to note that the hardware used is located at &lt;code&gt;offline_analyze&lt;/code&gt; branch. This version will stamp the key data with a receive timestamp and forward it from ETH2. We need to use a PC equipped with a Linux system to capture packets for analysis.&lt;/p&gt;
+&lt;p&gt;Example of packet capture command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo tcpdump -i enx207bd272812b ether src 00:0a:35:00:00:14 -n -B &lt;span class=&#34;m&#34;&gt;100000&lt;/span&gt; -w packets.pcapng
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;Enx207bd272812b&lt;/code&gt; is the name of the network card, which can be obtained through ifconfig. &lt;code&gt;Src&lt;/code&gt; is used to specify that the captured packet comes from a certain MAC address. &lt;code&gt;-B&lt;/code&gt; is used to specify the buffer size. If packet loss needs to be set to a larger size, you can check the information output after packet capture to see if Dropped by kernel: is 0. If it is not 0, it indicates that there is packet loss in the kernel. &lt;code&gt;-W&lt;/code&gt; specifies the path to save the file.&lt;/p&gt;
+&lt;p&gt;Code for analyzing programs is &lt;code&gt;analyze_packet.py&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python .&lt;span class=&#34;se&#34;&gt;\a&lt;/span&gt;nalyze_packet.py &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;capture file path&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; --step &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;interval&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;At the same time, a packet will be generated in the current directory (&lt;code&gt;packet_log.csv&lt;/code&gt; and &lt;code&gt;critical_log.csv&lt;/code&gt;).&lt;/p&gt;
 </description>
     </item>
     
@@ -493,277 +682,6 @@
     </item>
     
     <item>
-      <title>👩🏼‍🏫 准备清单</title>
-      <link>http://localhost:1313/device/require/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/device/require/</guid>
-      <description>&lt;h2 id=&#34;软件环境清单&#34;&gt;软件环境清单&lt;/h2&gt;
-&lt;h3 id=&#34;vivada-开发环境&#34;&gt;Vivada 开发环境&lt;/h3&gt;
-&lt;p&gt;Vivado 是开发板的硬件开发程序。&lt;/p&gt;
-&lt;p&gt;Vivado 软件的 Xilinx 官方下载地址： &lt;a href=&#34;http://china.xilinx.com/support/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://china.xilinx.com/support/download.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;本开发团队使用的是Vivado &lt;em&gt;&lt;strong&gt;2020.1&lt;/strong&gt;&lt;/em&gt;版本，我们建议ZIGGO项目使用者也使用相同版本以免一些不必要的麻烦。&lt;/p&gt;
-&lt;p&gt;具体的安装流程可以参照 &lt;a href=&#34;https://cloud.tsinghua.edu.cn/f/f9f1a4f92a344e8e9c2c/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZYNQ应用教程&lt;/a&gt; &lt;strong&gt;第三章Vivado开发环境&lt;/strong&gt; 进行安装。&lt;/p&gt;
-&lt;h3 id=&#34;mobaxterm&#34;&gt;MobaXterm&lt;/h3&gt;
-&lt;p&gt;MobaXterm是串口连接工具，我们在&lt;a href=&#34;./hardware_build.md&#34;&gt;hardware_build.md&lt;/a&gt;中“Launch the Board and log in”这一章节进行了使用介绍。&lt;/p&gt;
-&lt;p&gt;MobaXterm的官方下载地址：&lt;a href=&#34;https://mobaxterm.mobatek.net/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MobaXterm Xserver with SSH, telnet, RDP, VNC and X11 - Download (mobatek.net)&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;硬件准备清单&#34;&gt;硬件准备清单&lt;/h2&gt;
-&lt;h3 id=&#34;alinx7021开发板&#34;&gt;Alinx7021开发板&lt;/h3&gt;
-&lt;img src=&#34;./alinx7021.png&#34; alt=&#34;Alinx&#34; style=&#34;zoom:50%;&#34; /&gt;
-&lt;h3 id=&#34;sd启动卡&#34;&gt;SD启动卡&lt;/h3&gt;
-&lt;p&gt;SD启动卡中存储着操作系统，建议容量 $\geq$ 32G。&lt;/p&gt;
-&lt;h3 id=&#34;必要的线材&#34;&gt;必要的线材&lt;/h3&gt;
-&lt;p&gt;包括网线、数据线等。&lt;/p&gt;
-&lt;h3 id=&#34;普通交换机&#34;&gt;普通交换机&lt;/h3&gt;
-&lt;p&gt;如果使用的开发板数量较多，可以考虑将所有开发板连接到普通交换机再通过普通交换机连接至PC（通过网线）进行管理和使用。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>👩🏼‍🏫 准备清单</title>
-      <link>http://localhost:1313/switch/require/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/switch/require/</guid>
-      <description>&lt;h2 id=&#34;软件环境清单&#34;&gt;软件环境清单&lt;/h2&gt;
-&lt;h3 id=&#34;vivada-开发环境&#34;&gt;Vivada 开发环境&lt;/h3&gt;
-&lt;p&gt;Vivado 是开发板的硬件开发程序。&lt;/p&gt;
-&lt;p&gt;Vivado 软件的 Xilinx 官方下载地址： &lt;a href=&#34;http://china.xilinx.com/support/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://china.xilinx.com/support/download.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;本开发团队使用的是Vivado &lt;em&gt;&lt;strong&gt;2020.1&lt;/strong&gt;&lt;/em&gt;版本，我们建议ZIGGO项目使用者也使用相同版本以免一些不必要的麻烦。&lt;/p&gt;
-&lt;p&gt;具体的安装流程可以参照 &lt;a href=&#34;https://cloud.tsinghua.edu.cn/f/f9f1a4f92a344e8e9c2c/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZYNQ应用教程&lt;/a&gt; &lt;strong&gt;第三章Vivado开发环境&lt;/strong&gt; 进行安装。&lt;/p&gt;
-&lt;h3 id=&#34;mobaxterm&#34;&gt;MobaXterm&lt;/h3&gt;
-&lt;p&gt;MobaXterm是串口连接工具，我们在&lt;a href=&#34;http://localhost:1313/switch/hardware-build/&#34;&gt;hardware-build&lt;/a&gt;中“Launch the Board and log in”这一章节进行了使用介绍。&lt;/p&gt;
-&lt;p&gt;MobaXterm的官方下载地址：&lt;a href=&#34;https://mobaxterm.mobatek.net/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MobaXterm Xserver with SSH, telnet, RDP, VNC and X11 - Download (mobatek.net)&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;硬件准备清单&#34;&gt;硬件准备清单&lt;/h2&gt;
-&lt;h3 id=&#34;alinx7021开发板&#34;&gt;Alinx7021开发板&lt;/h3&gt;
-&lt;img src=&#34;./alinx7021.png&#34; alt=&#34;Alinx&#34; style=&#34;zoom:50%;&#34; /&gt;
-&lt;h3 id=&#34;sd启动卡&#34;&gt;SD启动卡&lt;/h3&gt;
-&lt;p&gt;SD启动卡中存储着操作系统，建议容量 $\geq$ 32G。&lt;/p&gt;
-&lt;h3 id=&#34;必要的线材&#34;&gt;必要的线材&lt;/h3&gt;
-&lt;p&gt;包括网线、数据线等。&lt;/p&gt;
-&lt;h3 id=&#34;普通交换机&#34;&gt;普通交换机&lt;/h3&gt;
-&lt;p&gt;如果使用的开发板数量较多，可以考虑将所有开发板连接到普通交换机再通过普通交换机连接至PC（通过网线）进行管理和使用。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>💦 Software:Time Sync &#43; Config for CaaS Device</title>
-      <link>http://localhost:1313/device/software-build/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/device/software-build/</guid>
-      <description>&lt;p&gt;This repo contains source code to enable TSN/CaaS TSNPerf&amp;rsquo; time synchronization logic and set up packet generation plan.&lt;/p&gt;
-&lt;h2 id=&#34;table-of-content&#34;&gt;Table of Content&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#table-of-content&#34;&gt;Table of Content&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#1-build&#34;&gt;1. Build&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#2-config&#34;&gt;2. Config&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#3-run&#34;&gt;3. Run&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#4-analyze&#34;&gt;4. Analyze&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#41-tsnperf-directly-analyzes-latency-and-jitter&#34;&gt;4.1 TSNPerf directly analyzes latency and jitter&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#42-offline-analysis-of-latency-and-jitter&#34;&gt;4.2 Offline analysis of latency and jitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;1-build&#34;&gt;1. Build&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir build
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; build
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cmake ..
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After successfully build, there should be two executables: &amp;ldquo;time_sync&amp;rdquo; &amp;amp; &amp;ldquo;pkt_gen&amp;rdquo;&lt;/p&gt;
-&lt;h2 id=&#34;2-config&#34;&gt;2. Config&lt;/h2&gt;
-&lt;p&gt;The &amp;ldquo;build&amp;rdquo; directory contains topology &amp;amp; TSN/CaaS schedule results.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;config.json: topology file, contains node info (type, mac, ptp ports), link between nodes (with ports), and forwarding table.&lt;/li&gt;
-&lt;li&gt;schedule.json: schedule file, contains each links&amp;rsquo; schedule time interval &amp;amp; each CaaS switch&amp;rsquo;s computation time interval.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(Hints: This is similar to a Ziggo Switch)&lt;/p&gt;
-&lt;h2 id=&#34;3-run&#34;&gt;3. Run&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Start time syncronization&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./time_sync
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Start device critical packet generation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./pkt_gen
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;4-analyze&#34;&gt;4. Analyze&lt;/h2&gt;
-&lt;p&gt;There are two analysis methods for TSNPerf:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Hint: If you want to use offline anaylze, please switch branch to &amp;lsquo;offline_anaylze&amp;rsquo;, and you need to link device to anthor PC(linux) by wire.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;One method is to directly analyze latency and jitter on the TSNPerf.&lt;/p&gt;
-&lt;p&gt;Another method is to use Device to stamp the received packet and forward it from another port to a powerful desktop computer for packet capture analysis. Even if entering the Device at a gigabit rate, there will be no packet loss. The disadvantage is that a separate program needs to be written offline to analyze the delay and jitter of the packet.&lt;/p&gt;
-&lt;h3 id=&#34;41-tsnperf-directly-analyzes-latency-and-jitter&#34;&gt;4.1 TSNPerf directly analyzes latency and jitter&lt;/h3&gt;
-&lt;p&gt;During the operation of the  &lt;code&gt;time sync&lt;/code&gt; program, after receiving the test data frame, the program will save the delay information of the data frame in the package under the &lt;code&gt;build/packet_log.csv&lt;/code&gt;   file, save the batch statistics of latency and jitter in the critical directory under the build directory at the same time in the &lt;code&gt;build/critical_log.csv&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;You can display the content of the header and the last 5 lines using the following command:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat critical.log &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; head -n1
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat critical.log &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; tail -n5
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;42-offline-analysis-of-latency-and-jitter&#34;&gt;4.2 Offline analysis of latency and jitter&lt;/h3&gt;
-&lt;p&gt;If conducting offline analysis, it is important to note that the hardware used is located at &lt;code&gt;offline_analyze&lt;/code&gt; branch. This version will stamp the key data with a receive timestamp and forward it from ETH2. We need to use a PC equipped with a Linux system to capture packets for analysis.&lt;/p&gt;
-&lt;p&gt;Example of packet capture command:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo tcpdump -i enx207bd272812b ether src 00:0a:35:00:00:14 -n -B &lt;span class=&#34;m&#34;&gt;100000&lt;/span&gt; -w packets.pcapng
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;Enx207bd272812b&lt;/code&gt; is the name of the network card, which can be obtained through ifconfig. &lt;code&gt;Src&lt;/code&gt; is used to specify that the captured packet comes from a certain MAC address. &lt;code&gt;-B&lt;/code&gt; is used to specify the buffer size. If packet loss needs to be set to a larger size, you can check the information output after packet capture to see if Dropped by kernel: is 0. If it is not 0, it indicates that there is packet loss in the kernel. &lt;code&gt;-W&lt;/code&gt; specifies the path to save the file.&lt;/p&gt;
-&lt;p&gt;Code for analyzing programs is &lt;code&gt;analyze_packet.py&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python .&lt;span class=&#34;se&#34;&gt;\a&lt;/span&gt;nalyze_packet.py &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;capture file path&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; --step &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;interval&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;At the same time, a packet will be generated in the current directory (&lt;code&gt;packet_log.csv&lt;/code&gt; and &lt;code&gt;critical_log.csv&lt;/code&gt;).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>📕 CNC脚本使用指南</title>
-      <link>http://localhost:1313/device/cnc_manual/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/device/cnc_manual/</guid>
-      <description>&lt;h2 id=&#34;1-运行脚本前在batchmjs中要配置好以下变量&#34;&gt;1. 运行脚本前，在batch.mjs中要配置好以下变量：&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// IP address format: 192.168.137.*
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// 测试数据
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;conf_default&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;需要执行的配置名称&amp;gt;&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// 时钟主节点
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;master&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;40&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;hosts&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;device&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;43&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;44&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;k&#34;&gt;switch&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;40&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;41&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;安装好需要的依赖：
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;```bash
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo npm install -g zx@4.3.0
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install -r requirements.txt
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm install
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;配置好环境变量，在.bashrc中加入：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;PYTHONPATH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;/home/&amp;lt;用户名&amp;gt;/scripts&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;2-下载好switch和tsnperf的软件代码&#34;&gt;2. 下载好Switch和TSNPerf的软件代码&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;（记得提前配置好树莓派和所有板子之间的ssh public key，方便免密登录）&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./batch.mjs clone
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;3-拉取最新的软件代码并同步到远程板子上&#34;&gt;3. 拉取最新的软件代码并同步到远程板子上&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;默认时master分支，如果需要指定分支，需要修改batch.mjs文件中的pull()函数，具体参考注释的部分&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// pull all the latest code
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;pull&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;async&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;cd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;homedir&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;/repos`&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// 如果需要指定分支，类似下面指定qbv-test分支的操作
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// await $`cd pkt_gen_app; git stash; git checkout qbv-test; git pull origin qbv-test; cd ..`
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// await $`cd time_sync_app; git stash; git checkout qbv-test; git pull origin qbv-test; cd ..`
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;await&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Promise&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;all&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;hosts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;all&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;host&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;hosts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;device&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;includes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;host&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;?&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;device&amp;#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;switch&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;===&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;device&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;       &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;`rsync -avPh &lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;homedir&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;/repos/pkt_gen_app root@192.168.137.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;host&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;:~/`&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;===&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;switch&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;       &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;`rsync -avPh &lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;homedir&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;/repos/time_sync_app root@192.168.137.&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;host&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;:~/;`&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}))&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;同步到所有板子上：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./batch.mjs pull
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;4-使远程所有板子编译代码&#34;&gt;4. 使远程所有板子编译代码&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./batch.mjs build
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;5-将配置文件下发到所有板子上&#34;&gt;5. 将配置文件下发到所有板子上&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./batch.mjs distribute
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;6-开始启动所有板子的程序&#34;&gt;6. 开始启动所有板子的程序&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./batch.mjs launch
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;7-收集延迟和抖动的统计信息&#34;&gt;7. 收集延迟和抖动的统计信息&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./batch.mjs collect
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>📕 ZIGGO Device使用手册</title>
-      <link>http://localhost:1313/device/ziggo_device_manual/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/device/ziggo_device_manual/</guid>
-      <description>&lt;p&gt;There are two analysis methods for ZIGGO Device:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Hint: If you want to use offline anaylze, please switch branch to &amp;lsquo;offline_anaylze&amp;rsquo;, and you need to link device to anthor PC(linux) by wire.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;One method is to &lt;code&gt;directly&lt;/code&gt; analyze latency and jitter on the ZIGGO Device. The advantage of this method is that it is convenient and fast. We can directly count the latency and jitter of all received data frames on the Device. However, due to the limited processing power of the development board CPU, when analyzing a large number of data packets (such as sending more than 10 1500B data packets at a time with a cycle of 33ms), packet loss may occur;&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./online_analyse.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;Another method is to use Device to stamp the received packet and forward it from another port to a powerful desktop computer for packet capture analysis. Even if entering the Device at a gigabit rate, there will be no packet loss. The disadvantage is that a separate program needs to be written offline to analyze the delay and jitter of the packet.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./offline_analyse.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h2 id=&#34;ziggo-device-directly-analyzes-latency-and-jitter&#34;&gt;ZIGGO Device directly analyzes latency and jitter&lt;/h2&gt;
-&lt;p&gt;During the operation of the  &lt;code&gt;time sync&lt;/code&gt; program, after receiving the test data frame, the program will save the delay information of the data frame in the package under the &lt;code&gt;build/packet_log.csv&lt;/code&gt; file, save the batch statistics of latency and jitter in the critical directory under the build directory at the same time in the &lt;code&gt;build/critical_log.csv&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Example of &lt;code&gt;packet_log.csv&lt;/code&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Seq ID, Pkt ID, TX timestamp, RX timestamp, Latency
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 0, 12683587446, 12683613722, 26276
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1, 12683599662, 12683625970, 26308
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 2, 12683611862, 12683638162, 26300
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 3, 12683624078, 12683650386, 26308
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 4, 12717142039, 12717168273, 26234
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 5, 12717154223, 12717180465, 26242
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 6, 12717166391, 12717192625, 26234
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 7, 12717178575, 12717204825, 26250
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 8, 12750696471, 12750722712, 26241
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 9, 12750708655, 12750734904, 26249
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Example of &lt;code&gt;critical_ log.csv&lt;/code&gt;, where Latency Variance is the variance of Latency:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Seq ID, Received Number, Max pkt_id, Min pkt_id, Loss Rate, Latency Mean, Latency Variance
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 0, 999, 0.000000,  26230, 1199
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 1000, 1999, 0.000000,  26218, 2811
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 2000, 2999, 0.000000,  26218, 2808
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 3000, 3999, 0.000000,  26195, 18331
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 4000, 4999, 0.000000,  26233, 921
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 5000, 5999, 0.000000,  26226, 852
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 6000, 6999, 0.000000,  26226, 5080
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 7000, 7999, 0.000000,  26250, 105272
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 8000, 8999, 0.000000,  26204, 7233
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0101, 1000, 9000, 9999, 0.000000,  26205, 7361
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can display the content of the header and the last 5 lines using the following command:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat critical.log &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; head -n1
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat critical.log &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; tail -n5
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;offline-analysis-of-latency-and-jitter&#34;&gt;Offline analysis of latency and jitter&lt;/h2&gt;
-&lt;p&gt;If conducting offline analysis, it is important to note that the hardware used is located at &lt;code&gt;offline_analyze&lt;/code&gt; branch. This version will stamp the key data with a receive timestamp and forward it from ETH2. We need to use a PC equipped with a Linux system to capture packets for analysis.&lt;/p&gt;
-&lt;p&gt;Example of packet capture command:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo tcpdump -i enx207bd272812b ether src 00:0a:35:00:00:14 -n -B &lt;span class=&#34;m&#34;&gt;100000&lt;/span&gt; -w packets.pcapng
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;Enx207bd272812b&lt;/code&gt; is the name of the network card, which can be obtained through ifconfig. &lt;code&gt;Src&lt;/code&gt; is used to specify that the captured packet comes from a certain MAC address. &lt;code&gt;-B&lt;/code&gt; is used to specify the buffer size. If packet loss needs to be set to a larger size, you can check the information output after packet capture to see if Dropped by kernel: is 0. If it is not 0, it indicates that there is packet loss in the kernel. &lt;code&gt;-W&lt;/code&gt; specifies the path to save the file.&lt;/p&gt;
-&lt;p&gt;Code for analyzing programs is &lt;code&gt;analyze_packet.py&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python .&lt;span class=&#34;se&#34;&gt;\a&lt;/span&gt;nalyze_packet.py &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;capture file path&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; --step &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;interval&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;At the same time, a packet will be generated in the current directory (&lt;code&gt;packet_log.csv&lt;/code&gt; and &lt;code&gt;critical_log.csv&lt;/code&gt;).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>🔨 System Design —— PL &amp; PS Co-operate</title>
       <link>http://localhost:1313/device/system-design/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
@@ -1109,6 +1027,32 @@
     </item>
     
     <item>
+      <title>👩🏼‍🏫 准备清单</title>
+      <link>http://localhost:1313/device/require/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/device/require/</guid>
+      <description>&lt;h2 id=&#34;软件环境清单&#34;&gt;软件环境清单&lt;/h2&gt;
+&lt;h3 id=&#34;vivada-开发环境&#34;&gt;Vivada 开发环境&lt;/h3&gt;
+&lt;p&gt;Vivado 是开发板的硬件开发程序。&lt;/p&gt;
+&lt;p&gt;Vivado 软件的 Xilinx 官方下载地址： &lt;a href=&#34;http://china.xilinx.com/support/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://china.xilinx.com/support/download.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本开发团队使用的是Vivado &lt;em&gt;&lt;strong&gt;2020.1&lt;/strong&gt;&lt;/em&gt;版本，我们建议ZIGGO项目使用者也使用相同版本以免一些不必要的麻烦。&lt;/p&gt;
+&lt;p&gt;具体的安装流程可以参照 &lt;a href=&#34;https://cloud.tsinghua.edu.cn/f/f9f1a4f92a344e8e9c2c/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZYNQ应用教程&lt;/a&gt; &lt;strong&gt;第三章Vivado开发环境&lt;/strong&gt; 进行安装。&lt;/p&gt;
+&lt;h3 id=&#34;mobaxterm&#34;&gt;MobaXterm&lt;/h3&gt;
+&lt;p&gt;MobaXterm是串口连接工具，我们在&lt;a href=&#34;./hardware_build.md&#34;&gt;hardware_build.md&lt;/a&gt;中“Launch the Board and log in”这一章节进行了使用介绍。&lt;/p&gt;
+&lt;p&gt;MobaXterm的官方下载地址：&lt;a href=&#34;https://mobaxterm.mobatek.net/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MobaXterm Xserver with SSH, telnet, RDP, VNC and X11 - Download (mobatek.net)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;硬件准备清单&#34;&gt;硬件准备清单&lt;/h2&gt;
+&lt;h3 id=&#34;alinx7021开发板&#34;&gt;Alinx7021开发板&lt;/h3&gt;
+&lt;img src=&#34;./alinx7021.png&#34; alt=&#34;Alinx&#34; style=&#34;zoom:50%;&#34; /&gt;
+&lt;h3 id=&#34;sd启动卡&#34;&gt;SD启动卡&lt;/h3&gt;
+&lt;p&gt;SD启动卡中存储着操作系统，建议容量 $\geq$ 32G。&lt;/p&gt;
+&lt;h3 id=&#34;必要的线材&#34;&gt;必要的线材&lt;/h3&gt;
+&lt;p&gt;包括网线、数据线等。&lt;/p&gt;
+&lt;h3 id=&#34;普通交换机&#34;&gt;普通交换机&lt;/h3&gt;
+&lt;p&gt;如果使用的开发板数量较多，可以考虑将所有开发板连接到普通交换机再通过普通交换机连接至PC（通过网线）进行管理和使用。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>🧠 基础知识列表</title>
       <link>http://localhost:1313/device/basic_knowledge/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
@@ -1132,6 +1076,36 @@
 &lt;li&gt;C、C++语言&lt;/li&gt;
 &lt;li&gt;tcl脚本&lt;/li&gt;
 &lt;li&gt;良好的英语阅读基础&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🎉 How to contribute</title>
+      <link>http://localhost:1313/switch/contributing/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/switch/contributing/</guid>
+      <description>&lt;h2 id=&#34;reporting-a-bug&#34;&gt;Reporting a bug&lt;/h2&gt;
+&lt;p&gt;File bugs in the &lt;a href=&#34;https://github.com/Horacehxw/Ziggo-CaaS-Switch/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Issue Tracker&lt;/a&gt;. Please follow these guidelines:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Search existing issues first, make sure yours hasn&amp;rsquo;t already been reported.&lt;/li&gt;
+&lt;li&gt;Consider enabling debug mode so that you can provide as much details as possible when reporting the issue.&lt;/li&gt;
+&lt;li&gt;Stay on topic, but describe the issue in detail so that others can &lt;strong&gt;reproduce&lt;/strong&gt; it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Provide a screenshot&lt;/strong&gt; if possible. A screenshot showing the problem is often more useful than a paragraph describing it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The development team will only answer questions on github issues and reject other forms of questions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;contributing-to-ziggos-code&#34;&gt;Contributing to ZIGGO&amp;rsquo;s code&lt;/h2&gt;
+&lt;p&gt;If you want to start contributing to the project&amp;rsquo;s code, please follow these guidelines before creating a pull request:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The top post of the pull request should contain a full, self-contained explanation of the feature: what it does, how it does it, with examples of usage and screenshots. Also explain why you want to add this - what problem does it solve. Do not simply add a text &lt;code&gt;Implement feature #4345&lt;/code&gt; , because the information there will most likely be outdated or confusing (multiple discussions and opinions). The pull request needs to be self-contained.&lt;/li&gt;
+&lt;li&gt;Bug fixes are always welcome.&lt;/li&gt;
+&lt;li&gt;A good way to easily start contributing is to pick and work on a good first issue. We try to make these issues as clear as possible and provide basic info on how the code should be changed, and if something is unclear feel free to ask for more information on the issue.&lt;/li&gt;
+&lt;li&gt;Before adding a new feature, ask about it in the &lt;a href=&#34;https://github.com/Horacehxw/Ziggo-CaaS-Switch/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Issue Tracker&lt;/a&gt; , or check if existing discussions exist to make sure the new functionality is desired.&lt;/li&gt;
+&lt;li&gt;Pull requests that make many changes using an automated tool, like for spell fixing, styling, etc. will not be accepted.&lt;/li&gt;
+&lt;li&gt;Pull requests that address multiple issues will most likely stall and eventually be closed. This is because we might be fine with one of the changes but not with others and untangling that kind of pull request is too much hassle both for maintainers and the person who submitted it. So most of the time someone gives up and the PR gets closed. So please keep the pull request focused on one issue.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Do not mark your reviewer&amp;rsquo;s comments as &amp;ldquo;resolved&amp;rdquo;&lt;/strong&gt;. If you do that, the comments will be hidden and the reviewer will not know what are the pending issues in the pull request. Only the reviewer should resolve the comments.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -1161,6 +1135,32 @@
 &lt;li&gt;tcl脚本&lt;/li&gt;
 &lt;li&gt;良好的英语阅读基础&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>👩🏼‍🏫 准备清单</title>
+      <link>http://localhost:1313/switch/require/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/switch/require/</guid>
+      <description>&lt;h2 id=&#34;软件环境清单&#34;&gt;软件环境清单&lt;/h2&gt;
+&lt;h3 id=&#34;vivada-开发环境&#34;&gt;Vivada 开发环境&lt;/h3&gt;
+&lt;p&gt;Vivado 是开发板的硬件开发程序。&lt;/p&gt;
+&lt;p&gt;Vivado 软件的 Xilinx 官方下载地址： &lt;a href=&#34;http://china.xilinx.com/support/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://china.xilinx.com/support/download.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本开发团队使用的是Vivado &lt;em&gt;&lt;strong&gt;2020.1&lt;/strong&gt;&lt;/em&gt;版本，我们建议ZIGGO项目使用者也使用相同版本以免一些不必要的麻烦。&lt;/p&gt;
+&lt;p&gt;具体的安装流程可以参照 &lt;a href=&#34;https://cloud.tsinghua.edu.cn/f/f9f1a4f92a344e8e9c2c/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZYNQ应用教程&lt;/a&gt; &lt;strong&gt;第三章Vivado开发环境&lt;/strong&gt; 进行安装。&lt;/p&gt;
+&lt;h3 id=&#34;mobaxterm&#34;&gt;MobaXterm&lt;/h3&gt;
+&lt;p&gt;MobaXterm是串口连接工具，我们在&lt;a href=&#34;http://localhost:1313/switch/hardware-build/&#34;&gt;hardware-build&lt;/a&gt;中“Launch the Board and log in”这一章节进行了使用介绍。&lt;/p&gt;
+&lt;p&gt;MobaXterm的官方下载地址：&lt;a href=&#34;https://mobaxterm.mobatek.net/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MobaXterm Xserver with SSH, telnet, RDP, VNC and X11 - Download (mobatek.net)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;硬件准备清单&#34;&gt;硬件准备清单&lt;/h2&gt;
+&lt;h3 id=&#34;alinx7021开发板&#34;&gt;Alinx7021开发板&lt;/h3&gt;
+&lt;img src=&#34;./alinx7021.png&#34; alt=&#34;Alinx&#34; style=&#34;zoom:50%;&#34; /&gt;
+&lt;h3 id=&#34;sd启动卡&#34;&gt;SD启动卡&lt;/h3&gt;
+&lt;p&gt;SD启动卡中存储着操作系统，建议容量 $\geq$ 32G。&lt;/p&gt;
+&lt;h3 id=&#34;必要的线材&#34;&gt;必要的线材&lt;/h3&gt;
+&lt;p&gt;包括网线、数据线等。&lt;/p&gt;
+&lt;h3 id=&#34;普通交换机&#34;&gt;普通交换机&lt;/h3&gt;
+&lt;p&gt;如果使用的开发板数量较多，可以考虑将所有开发板连接到普通交换机再通过普通交换机连接至PC（通过网线）进行管理和使用。&lt;/p&gt;
 </description>
     </item>
     

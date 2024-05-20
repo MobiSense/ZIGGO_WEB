@@ -10,6 +10,7 @@ tags:
   - Markdown
 image:
   caption: "TBD"
+weight: 700
 ---
 
 This repo contains source code to enable CaaS Switches' time synchronization logic and set up TSN GCL (gate control list), switch forwarding rules (including to dual-DMA).

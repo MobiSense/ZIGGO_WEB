@@ -10,6 +10,7 @@ tags:
   - Basic
 image:
   caption: "TBD"
+weight: 10000
 ---
 ## 软件环境清单
 

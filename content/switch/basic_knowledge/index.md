@@ -10,6 +10,7 @@ tags:
   - Basic
 image:
   caption: "TBD"
+weight: 1000
 ---
 
 我们再次重申，使用或者开发ZIGGO-CaaS-Switch或者ZIGGO-Device是有较高门槛的，您必须掌握一定的软硬件知识。如果您之间没有任何的硬件开发经验，您可能需要慎重考虑自己是否适合这个项目，因为学习这些知识是非常花时间的。

@@ -10,6 +10,7 @@ tags:
   - Markdown
 image:
   caption: "TBD"
+weight: 14
 ---
 There are two analysis methods for ZIGGO Device:
 

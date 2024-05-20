@@ -10,6 +10,7 @@ tags:
   - Markdown
 image:
   caption: "TBD"
+weight: 100
 ---
 ## 硬件准备
 准备两台机器，一台作为发送方Publisher，一台作为接收方Recorder，每一台上的硬件需满足以下条件

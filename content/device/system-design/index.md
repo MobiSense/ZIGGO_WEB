@@ -10,6 +10,7 @@ tags:
   - Markdown
 image:
   caption: "TBD"
+weight: 17
 ---
 
 ZIGGO is implemented on ZYNQ-7000 SoC and exploits ZYNQ's both hardware and software programmability. 

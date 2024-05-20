@@ -10,6 +10,7 @@ tags:
   - Markdown
 image:
   caption: "TBD"
+weight: 900
 ---
 
 The CaaS/TSN Switch is developed based on the ZYNQ platform. The diagram below shows the composition of the ZYNQ chip. ZYNQ mainly consists of a Processing System (PS) and Programmable Logic (PL). The PS and PL mainly communicate with each other through the high-performance Advanced eXtensible Interface (AXI), which is more efficient than using FPGA directly as a peripheral. The PS contains an ARM-based processor suitable for running applications, drivers, and operating systems, while the PL contains FPGA suitable for running low-level hardware logic with high real-time performance requirements.

@@ -13,6 +13,45 @@
     </image>
     
     <item>
+      <title>☀ 某品牌交换机报告</title>
+      <link>http://localhost:1313/tsnperf/report/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tsnperf/report/</guid>
+      <description>&lt;p&gt;详细报告请查看&lt;a href=&#34;http://localhost:1313/pdf/switch_report.pdf&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🎉 How to contribute</title>
+      <link>http://localhost:1313/device/contributing/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/device/contributing/</guid>
+      <description>&lt;h2 id=&#34;reporting-a-bug&#34;&gt;Reporting a bug&lt;/h2&gt;
+&lt;p&gt;File bugs in the &lt;a href=&#34;https://github.com/Horacehxw/Ziggo-CaaS-Switch/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Issue Tracker&lt;/a&gt;. Please follow these guidelines:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Search existing issues first, make sure yours hasn&amp;rsquo;t already been reported.&lt;/li&gt;
+&lt;li&gt;Consider enabling debug mode so that you can provide as much details as possible when reporting the issue.&lt;/li&gt;
+&lt;li&gt;Stay on topic, but describe the issue in detail so that others can &lt;strong&gt;reproduce&lt;/strong&gt; it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Provide a screenshot&lt;/strong&gt; if possible. A screenshot showing the problem is often more useful than a paragraph describing it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The development team will only answer questions on github issues and reject other forms of questions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;contributing-to-ziggos-code&#34;&gt;Contributing to ZIGGO&amp;rsquo;s code&lt;/h2&gt;
+&lt;p&gt;If you want to start contributing to the project&amp;rsquo;s code, please follow these guidelines before creating a pull request:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The top post of the pull request should contain a full, self-contained explanation of the feature: what it does, how it does it, with examples of usage and screenshots. Also explain why you want to add this - what problem does it solve. Do not simply add a text &lt;code&gt;Implement feature #4345&lt;/code&gt; , because the information there will most likely be outdated or confusing (multiple discussions and opinions). The pull request needs to be self-contained.&lt;/li&gt;
+&lt;li&gt;Bug fixes are always welcome.&lt;/li&gt;
+&lt;li&gt;A good way to easily start contributing is to pick and work on a good first issue. We try to make these issues as clear as possible and provide basic info on how the code should be changed, and if something is unclear feel free to ask for more information on the issue.&lt;/li&gt;
+&lt;li&gt;Before adding a new feature, ask about it in the &lt;a href=&#34;https://github.com/Horacehxw/Ziggo-CaaS-Switch/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Issue Tracker&lt;/a&gt; , or check if existing discussions exist to make sure the new functionality is desired.&lt;/li&gt;
+&lt;li&gt;Pull requests that make many changes using an automated tool, like for spell fixing, styling, etc. will not be accepted.&lt;/li&gt;
+&lt;li&gt;Pull requests that address multiple issues will most likely stall and eventually be closed. This is because we might be fine with one of the changes but not with others and untangling that kind of pull request is too much hassle both for maintainers and the person who submitted it. So most of the time someone gives up and the PR gets closed. So please keep the pull request focused on one issue.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Do not mark your reviewer&amp;rsquo;s comments as &amp;ldquo;resolved&amp;rdquo;&lt;/strong&gt;. If you do that, the comments will be hidden and the reviewer will not know what are the pending issues in the pull request. Only the reviewer should resolve the comments.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>⌚ TSNPerf 检测内容及使用表</title>
       <link>http://localhost:1313/tsnperf/manual/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
@@ -164,66 +203,6 @@
 &lt;h2 id=&#34;网络配置测试&#34;&gt;网络配置测试&lt;/h2&gt;
 &lt;p&gt;本节将介绍使用TSNPerf测试待测设备网络配置功能的方法。&lt;/p&gt;
 &lt;p&gt;TBD&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>🎉 How to contribute</title>
-      <link>http://localhost:1313/device/contributing/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/device/contributing/</guid>
-      <description>&lt;h2 id=&#34;reporting-a-bug&#34;&gt;Reporting a bug&lt;/h2&gt;
-&lt;p&gt;File bugs in the &lt;a href=&#34;https://github.com/Horacehxw/Ziggo-CaaS-Switch/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Issue Tracker&lt;/a&gt;. Please follow these guidelines:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Search existing issues first, make sure yours hasn&amp;rsquo;t already been reported.&lt;/li&gt;
-&lt;li&gt;Consider enabling debug mode so that you can provide as much details as possible when reporting the issue.&lt;/li&gt;
-&lt;li&gt;Stay on topic, but describe the issue in detail so that others can &lt;strong&gt;reproduce&lt;/strong&gt; it.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Provide a screenshot&lt;/strong&gt; if possible. A screenshot showing the problem is often more useful than a paragraph describing it.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The development team will only answer questions on github issues and reject other forms of questions.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;contributing-to-ziggos-code&#34;&gt;Contributing to ZIGGO&amp;rsquo;s code&lt;/h2&gt;
-&lt;p&gt;If you want to start contributing to the project&amp;rsquo;s code, please follow these guidelines before creating a pull request:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The top post of the pull request should contain a full, self-contained explanation of the feature: what it does, how it does it, with examples of usage and screenshots. Also explain why you want to add this - what problem does it solve. Do not simply add a text &lt;code&gt;Implement feature #4345&lt;/code&gt; , because the information there will most likely be outdated or confusing (multiple discussions and opinions). The pull request needs to be self-contained.&lt;/li&gt;
-&lt;li&gt;Bug fixes are always welcome.&lt;/li&gt;
-&lt;li&gt;A good way to easily start contributing is to pick and work on a good first issue. We try to make these issues as clear as possible and provide basic info on how the code should be changed, and if something is unclear feel free to ask for more information on the issue.&lt;/li&gt;
-&lt;li&gt;Before adding a new feature, ask about it in the &lt;a href=&#34;https://github.com/Horacehxw/Ziggo-CaaS-Switch/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Issue Tracker&lt;/a&gt; , or check if existing discussions exist to make sure the new functionality is desired.&lt;/li&gt;
-&lt;li&gt;Pull requests that make many changes using an automated tool, like for spell fixing, styling, etc. will not be accepted.&lt;/li&gt;
-&lt;li&gt;Pull requests that address multiple issues will most likely stall and eventually be closed. This is because we might be fine with one of the changes but not with others and untangling that kind of pull request is too much hassle both for maintainers and the person who submitted it. So most of the time someone gives up and the PR gets closed. So please keep the pull request focused on one issue.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Do not mark your reviewer&amp;rsquo;s comments as &amp;ldquo;resolved&amp;rdquo;&lt;/strong&gt;. If you do that, the comments will be hidden and the reviewer will not know what are the pending issues in the pull request. Only the reviewer should resolve the comments.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>🎉 How to contribute</title>
-      <link>http://localhost:1313/switch/contributing/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/switch/contributing/</guid>
-      <description>&lt;h2 id=&#34;reporting-a-bug&#34;&gt;Reporting a bug&lt;/h2&gt;
-&lt;p&gt;File bugs in the &lt;a href=&#34;https://github.com/Horacehxw/Ziggo-CaaS-Switch/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Issue Tracker&lt;/a&gt;. Please follow these guidelines:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Search existing issues first, make sure yours hasn&amp;rsquo;t already been reported.&lt;/li&gt;
-&lt;li&gt;Consider enabling debug mode so that you can provide as much details as possible when reporting the issue.&lt;/li&gt;
-&lt;li&gt;Stay on topic, but describe the issue in detail so that others can &lt;strong&gt;reproduce&lt;/strong&gt; it.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Provide a screenshot&lt;/strong&gt; if possible. A screenshot showing the problem is often more useful than a paragraph describing it.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The development team will only answer questions on github issues and reject other forms of questions.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;contributing-to-ziggos-code&#34;&gt;Contributing to ZIGGO&amp;rsquo;s code&lt;/h2&gt;
-&lt;p&gt;If you want to start contributing to the project&amp;rsquo;s code, please follow these guidelines before creating a pull request:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The top post of the pull request should contain a full, self-contained explanation of the feature: what it does, how it does it, with examples of usage and screenshots. Also explain why you want to add this - what problem does it solve. Do not simply add a text &lt;code&gt;Implement feature #4345&lt;/code&gt; , because the information there will most likely be outdated or confusing (multiple discussions and opinions). The pull request needs to be self-contained.&lt;/li&gt;
-&lt;li&gt;Bug fixes are always welcome.&lt;/li&gt;
-&lt;li&gt;A good way to easily start contributing is to pick and work on a good first issue. We try to make these issues as clear as possible and provide basic info on how the code should be changed, and if something is unclear feel free to ask for more information on the issue.&lt;/li&gt;
-&lt;li&gt;Before adding a new feature, ask about it in the &lt;a href=&#34;https://github.com/Horacehxw/Ziggo-CaaS-Switch/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Issue Tracker&lt;/a&gt; , or check if existing discussions exist to make sure the new functionality is desired.&lt;/li&gt;
-&lt;li&gt;Pull requests that make many changes using an automated tool, like for spell fixing, styling, etc. will not be accepted.&lt;/li&gt;
-&lt;li&gt;Pull requests that address multiple issues will most likely stall and eventually be closed. This is because we might be fine with one of the changes but not with others and untangling that kind of pull request is too much hassle both for maintainers and the person who submitted it. So most of the time someone gives up and the PR gets closed. So please keep the pull request focused on one issue.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Do not mark your reviewer&amp;rsquo;s comments as &amp;ldquo;resolved&amp;rdquo;&lt;/strong&gt;. If you do that, the comments will be hidden and the reviewer will not know what are the pending issues in the pull request. Only the reviewer should resolve the comments.&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
@@ -674,28 +653,30 @@
     </item>
     
     <item>
-      <title>👩🏼‍🏫 准备清单</title>
-      <link>http://localhost:1313/switch/require/</link>
+      <title>🧠 基础知识列表</title>
+      <link>http://localhost:1313/device/basic_knowledge/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/switch/require/</guid>
-      <description>&lt;h2 id=&#34;软件环境清单&#34;&gt;软件环境清单&lt;/h2&gt;
-&lt;h3 id=&#34;vivada-开发环境&#34;&gt;Vivada 开发环境&lt;/h3&gt;
-&lt;p&gt;Vivado 是开发板的硬件开发程序。&lt;/p&gt;
-&lt;p&gt;Vivado 软件的 Xilinx 官方下载地址： &lt;a href=&#34;http://china.xilinx.com/support/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://china.xilinx.com/support/download.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;本开发团队使用的是Vivado &lt;em&gt;&lt;strong&gt;2020.1&lt;/strong&gt;&lt;/em&gt;版本，我们建议ZIGGO项目使用者也使用相同版本以免一些不必要的麻烦。&lt;/p&gt;
-&lt;p&gt;具体的安装流程可以参照 &lt;a href=&#34;https://cloud.tsinghua.edu.cn/f/f9f1a4f92a344e8e9c2c/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZYNQ应用教程&lt;/a&gt; &lt;strong&gt;第三章Vivado开发环境&lt;/strong&gt; 进行安装。&lt;/p&gt;
-&lt;h3 id=&#34;mobaxterm&#34;&gt;MobaXterm&lt;/h3&gt;
-&lt;p&gt;MobaXterm是串口连接工具，我们在&lt;a href=&#34;http://localhost:1313/switch/hardware-build/&#34;&gt;hardware-build&lt;/a&gt;中“Launch the Board and log in”这一章节进行了使用介绍。&lt;/p&gt;
-&lt;p&gt;MobaXterm的官方下载地址：&lt;a href=&#34;https://mobaxterm.mobatek.net/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MobaXterm Xserver with SSH, telnet, RDP, VNC and X11 - Download (mobatek.net)&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;硬件准备清单&#34;&gt;硬件准备清单&lt;/h2&gt;
-&lt;h3 id=&#34;alinx7021开发板&#34;&gt;Alinx7021开发板&lt;/h3&gt;
-&lt;img src=&#34;./alinx7021.png&#34; alt=&#34;Alinx&#34; style=&#34;zoom:50%;&#34; /&gt;
-&lt;h3 id=&#34;sd启动卡&#34;&gt;SD启动卡&lt;/h3&gt;
-&lt;p&gt;SD启动卡中存储着操作系统，建议容量 $\geq$ 32G。&lt;/p&gt;
-&lt;h3 id=&#34;必要的线材&#34;&gt;必要的线材&lt;/h3&gt;
-&lt;p&gt;包括网线、数据线等。&lt;/p&gt;
-&lt;h3 id=&#34;普通交换机&#34;&gt;普通交换机&lt;/h3&gt;
-&lt;p&gt;如果使用的开发板数量较多，可以考虑将所有开发板连接到普通交换机再通过普通交换机连接至PC（通过网线）进行管理和使用。&lt;/p&gt;
+      <guid>http://localhost:1313/device/basic_knowledge/</guid>
+      <description>&lt;p&gt;我们再次重申，使用或者开发ZIGGO-CaaS-Switch或者ZIGGO-Device是有较高门槛的，您必须掌握一定的软硬件知识。如果您之间没有任何的硬件开发经验，您可能需要慎重考虑自己是否适合这个项目，因为学习这些知识是非常花时间的。&lt;/p&gt;
+&lt;p&gt;学习使用ZIGGO项目比学习FPGA、MCU、ARM等传统开发工具要求更高，想如臂指使一般地使用ZIGGO设备也不是一蹴而就的事情。&lt;/p&gt;
+&lt;p&gt;如果您希望使用ZIGGO项目，您至少应该有以下知识：&lt;/p&gt;
+&lt;h2 id=&#34;硬件知识&#34;&gt;硬件知识&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;计算机组成原理&lt;/li&gt;
+&lt;li&gt;C语言&lt;/li&gt;
+&lt;li&gt;数字电路基础&lt;/li&gt;
+&lt;li&gt;Verilog、VHDL语言&lt;/li&gt;
+&lt;li&gt;良好的英语阅读基础&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;软件知识&#34;&gt;软件知识&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;计算机组成原理&lt;/li&gt;
+&lt;li&gt;计算机网络&lt;/li&gt;
+&lt;li&gt;计算机操作系统&lt;/li&gt;
+&lt;li&gt;C、C++语言&lt;/li&gt;
+&lt;li&gt;tcl脚本&lt;/li&gt;
+&lt;li&gt;良好的英语阅读基础&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -895,6 +876,36 @@
     </item>
     
     <item>
+      <title>🎉 How to contribute</title>
+      <link>http://localhost:1313/switch/contributing/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/switch/contributing/</guid>
+      <description>&lt;h2 id=&#34;reporting-a-bug&#34;&gt;Reporting a bug&lt;/h2&gt;
+&lt;p&gt;File bugs in the &lt;a href=&#34;https://github.com/Horacehxw/Ziggo-CaaS-Switch/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Issue Tracker&lt;/a&gt;. Please follow these guidelines:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Search existing issues first, make sure yours hasn&amp;rsquo;t already been reported.&lt;/li&gt;
+&lt;li&gt;Consider enabling debug mode so that you can provide as much details as possible when reporting the issue.&lt;/li&gt;
+&lt;li&gt;Stay on topic, but describe the issue in detail so that others can &lt;strong&gt;reproduce&lt;/strong&gt; it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Provide a screenshot&lt;/strong&gt; if possible. A screenshot showing the problem is often more useful than a paragraph describing it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The development team will only answer questions on github issues and reject other forms of questions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;contributing-to-ziggos-code&#34;&gt;Contributing to ZIGGO&amp;rsquo;s code&lt;/h2&gt;
+&lt;p&gt;If you want to start contributing to the project&amp;rsquo;s code, please follow these guidelines before creating a pull request:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The top post of the pull request should contain a full, self-contained explanation of the feature: what it does, how it does it, with examples of usage and screenshots. Also explain why you want to add this - what problem does it solve. Do not simply add a text &lt;code&gt;Implement feature #4345&lt;/code&gt; , because the information there will most likely be outdated or confusing (multiple discussions and opinions). The pull request needs to be self-contained.&lt;/li&gt;
+&lt;li&gt;Bug fixes are always welcome.&lt;/li&gt;
+&lt;li&gt;A good way to easily start contributing is to pick and work on a good first issue. We try to make these issues as clear as possible and provide basic info on how the code should be changed, and if something is unclear feel free to ask for more information on the issue.&lt;/li&gt;
+&lt;li&gt;Before adding a new feature, ask about it in the &lt;a href=&#34;https://github.com/Horacehxw/Ziggo-CaaS-Switch/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Issue Tracker&lt;/a&gt; , or check if existing discussions exist to make sure the new functionality is desired.&lt;/li&gt;
+&lt;li&gt;Pull requests that make many changes using an automated tool, like for spell fixing, styling, etc. will not be accepted.&lt;/li&gt;
+&lt;li&gt;Pull requests that address multiple issues will most likely stall and eventually be closed. This is because we might be fine with one of the changes but not with others and untangling that kind of pull request is too much hassle both for maintainers and the person who submitted it. So most of the time someone gives up and the PR gets closed. So please keep the pull request focused on one issue.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Do not mark your reviewer&amp;rsquo;s comments as &amp;ldquo;resolved&amp;rdquo;&lt;/strong&gt;. If you do that, the comments will be hidden and the reviewer will not know what are the pending issues in the pull request. Only the reviewer should resolve the comments.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>📈 TSNPerf 设计原理</title>
       <link>http://localhost:1313/tsnperf/principle/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
@@ -983,9 +994,9 @@
     
     <item>
       <title>🧠 基础知识列表</title>
-      <link>http://localhost:1313/device/basic_knowledge/</link>
+      <link>http://localhost:1313/switch/basic_knowledge/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/device/basic_knowledge/</guid>
+      <guid>http://localhost:1313/switch/basic_knowledge/</guid>
       <description>&lt;p&gt;我们再次重申，使用或者开发ZIGGO-CaaS-Switch或者ZIGGO-Device是有较高门槛的，您必须掌握一定的软硬件知识。如果您之间没有任何的硬件开发经验，您可能需要慎重考虑自己是否适合这个项目，因为学习这些知识是非常花时间的。&lt;/p&gt;
 &lt;p&gt;学习使用ZIGGO项目比学习FPGA、MCU、ARM等传统开发工具要求更高，想如臂指使一般地使用ZIGGO设备也不是一蹴而就的事情。&lt;/p&gt;
 &lt;p&gt;如果您希望使用ZIGGO项目，您至少应该有以下知识：&lt;/p&gt;
@@ -1010,30 +1021,28 @@
     </item>
     
     <item>
-      <title>🧠 基础知识列表</title>
-      <link>http://localhost:1313/switch/basic_knowledge/</link>
+      <title>👩🏼‍🏫 准备清单</title>
+      <link>http://localhost:1313/switch/require/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/switch/basic_knowledge/</guid>
-      <description>&lt;p&gt;我们再次重申，使用或者开发ZIGGO-CaaS-Switch或者ZIGGO-Device是有较高门槛的，您必须掌握一定的软硬件知识。如果您之间没有任何的硬件开发经验，您可能需要慎重考虑自己是否适合这个项目，因为学习这些知识是非常花时间的。&lt;/p&gt;
-&lt;p&gt;学习使用ZIGGO项目比学习FPGA、MCU、ARM等传统开发工具要求更高，想如臂指使一般地使用ZIGGO设备也不是一蹴而就的事情。&lt;/p&gt;
-&lt;p&gt;如果您希望使用ZIGGO项目，您至少应该有以下知识：&lt;/p&gt;
-&lt;h2 id=&#34;硬件知识&#34;&gt;硬件知识&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;计算机组成原理&lt;/li&gt;
-&lt;li&gt;C语言&lt;/li&gt;
-&lt;li&gt;数字电路基础&lt;/li&gt;
-&lt;li&gt;Verilog、VHDL语言&lt;/li&gt;
-&lt;li&gt;良好的英语阅读基础&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;软件知识&#34;&gt;软件知识&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;计算机组成原理&lt;/li&gt;
-&lt;li&gt;计算机网络&lt;/li&gt;
-&lt;li&gt;计算机操作系统&lt;/li&gt;
-&lt;li&gt;C、C++语言&lt;/li&gt;
-&lt;li&gt;tcl脚本&lt;/li&gt;
-&lt;li&gt;良好的英语阅读基础&lt;/li&gt;
-&lt;/ul&gt;
+      <guid>http://localhost:1313/switch/require/</guid>
+      <description>&lt;h2 id=&#34;软件环境清单&#34;&gt;软件环境清单&lt;/h2&gt;
+&lt;h3 id=&#34;vivada-开发环境&#34;&gt;Vivada 开发环境&lt;/h3&gt;
+&lt;p&gt;Vivado 是开发板的硬件开发程序。&lt;/p&gt;
+&lt;p&gt;Vivado 软件的 Xilinx 官方下载地址： &lt;a href=&#34;http://china.xilinx.com/support/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://china.xilinx.com/support/download.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本开发团队使用的是Vivado &lt;em&gt;&lt;strong&gt;2020.1&lt;/strong&gt;&lt;/em&gt;版本，我们建议ZIGGO项目使用者也使用相同版本以免一些不必要的麻烦。&lt;/p&gt;
+&lt;p&gt;具体的安装流程可以参照 &lt;a href=&#34;https://cloud.tsinghua.edu.cn/f/f9f1a4f92a344e8e9c2c/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZYNQ应用教程&lt;/a&gt; &lt;strong&gt;第三章Vivado开发环境&lt;/strong&gt; 进行安装。&lt;/p&gt;
+&lt;h3 id=&#34;mobaxterm&#34;&gt;MobaXterm&lt;/h3&gt;
+&lt;p&gt;MobaXterm是串口连接工具，我们在&lt;a href=&#34;http://localhost:1313/switch/hardware-build/&#34;&gt;hardware-build&lt;/a&gt;中“Launch the Board and log in”这一章节进行了使用介绍。&lt;/p&gt;
+&lt;p&gt;MobaXterm的官方下载地址：&lt;a href=&#34;https://mobaxterm.mobatek.net/download.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MobaXterm Xserver with SSH, telnet, RDP, VNC and X11 - Download (mobatek.net)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;硬件准备清单&#34;&gt;硬件准备清单&lt;/h2&gt;
+&lt;h3 id=&#34;alinx7021开发板&#34;&gt;Alinx7021开发板&lt;/h3&gt;
+&lt;img src=&#34;./alinx7021.png&#34; alt=&#34;Alinx&#34; style=&#34;zoom:50%;&#34; /&gt;
+&lt;h3 id=&#34;sd启动卡&#34;&gt;SD启动卡&lt;/h3&gt;
+&lt;p&gt;SD启动卡中存储着操作系统，建议容量 $\geq$ 32G。&lt;/p&gt;
+&lt;h3 id=&#34;必要的线材&#34;&gt;必要的线材&lt;/h3&gt;
+&lt;p&gt;包括网线、数据线等。&lt;/p&gt;
+&lt;h3 id=&#34;普通交换机&#34;&gt;普通交换机&lt;/h3&gt;
+&lt;p&gt;如果使用的开发板数量较多，可以考虑将所有开发板连接到普通交换机再通过普通交换机连接至PC（通过网线）进行管理和使用。&lt;/p&gt;
 </description>
     </item>
     

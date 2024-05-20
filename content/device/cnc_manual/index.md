@@ -10,6 +10,7 @@ tags:
   - Basic
 image:
   caption: "TBD"
+weight: 12
 ---
 
 ## 1. 运行脚本前，在batch.mjs中要配置好以下变量：

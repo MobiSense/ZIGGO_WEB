@@ -10,6 +10,7 @@ tags:
   - Markdown
 image:
   caption: "TBD"
+weight: 1
 ---
 
-详细报告请查看[这里](/tsnperf/report/switch_report.pdf)。
+详细报告请查看[这里](/pdf/switch_report.pdf)。

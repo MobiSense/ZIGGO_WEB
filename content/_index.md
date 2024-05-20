@@ -170,27 +170,27 @@ sections:
         <ol style="width:180%; text-align:justify;list-style-type:decimal;">
           <li>Zeyu Wang*, Xiaowu He*, Xiangwen Zhuge, Shen Xu, Fan Dang, Jingao Xu and Zheng Yang
             <b>"Enabling Network Diagnostics in Time-Sensitive Networking:Protocol, Algorithm, and Hardware"</b>, IEEE <b>IWQoS</b>, 2024.
-            <a href="http://tns.thss.tsinghua.edu.cn/ziggo/data/TSNCard.pdf" target="_blank">[PDF]</a>
+            <a href="/pdf/TSNCard.pdf" target="_blank">[PDF]</a>
           </li>
           <li>Xiangwen Zhuge, Xinjun Cai, Xiaowu He, Zeyu Wang, Fan Dang, Wang Xu and Zheng Yang
             <b>"InNetScheduler:In-network scheduling for time- and event-triggered critical traffic in TSN"</b>, IEEE <b>INFOCOM</b>, 2024.
-            <a href="http://tns.thss.tsinghua.edu.cn/ziggo/data/InNetScheduler.pdf" target="_blank">[PDF]</a>
+            <a href="/pdf/InNetScheduler.pdf" target="_blank">[PDF]</a>
           </li>
           <li>Zeyu Wang, Jingao Xu, Xu Wang, Xiangwen Zhuge, Xiaowu He, Zheng Yang
             <b>"Industrial Knee-jerk:In-Network Simultaneous Planning and Control on a TSN Switch"</b>, ACM <b>MobiSys</b>, 2023.
-            <a href="http://tns.thss.tsinghua.edu.cn/ziggo/data/industrial-knee-jerk.pdf" target="_blank">[PDF]</a>
+            <a href="/pdf/industrial-knee-jerk.pdf" target="_blank">[PDF]</a>
           </li>
           <li>Zheng Yang, Yi Zhao, Fan Dang, Xiaowu He, Jiahang Wu, Hao Cao, Zeyu Wang, Yunhao Liu
             <b>"CaaS:Enabling Control-as-a-Service for Time-Sensitive Networking"</b>, IEEE <b>INFOCOM</b>, 2023.
-            <a href="http://tns.thss.tsinghua.edu.cn/ziggo/data/caas.pdf" target="_blank">[PDF]</a>
+            <a href="/pdf/caas.pdf" target="_blank">[PDF]</a>
           </li>
           <li>Xiaowu He, Xiangwen Zhuge, Fan Dang, Wang Xu, Zheng Yang
             <b>"DeepScheduler:Enabling Flow-Aware Scheduling in Time-Sensitive Networking"</b>, IEEE <b>INFOCOM</b>, 2023.
-            <a href="http://tns.thss.tsinghua.edu.cn/ziggo/data/deepscheduler.pdf" target="_blank">[PDF]</a>
+            <a href="/pdf/deepscheduler.pdf" target="_blank">[PDF]</a>
           </li>
           <li>Yi Zhao, Zheng Yang, Xiaowu He, Jiahang Wu, Hao Cao, Liang Dong, Fan Dang, Yunhao Liu
             <b>"E-TSN:Enabling Event-triggered Critical Traffic in Time-Sensitive Networking for Industrial Applications"</b>, IEEE <b>ICDCS</b>, 2022.
-            <a href="http://tns.thss.tsinghua.edu.cn/ziggo/data/e-tsn.pdf" target="_blank">[PDF]</a>
+            <a href="/pdf/e-tsn.pdf" target="_blank">[PDF]</a>
           </li>
         </ol>
 
