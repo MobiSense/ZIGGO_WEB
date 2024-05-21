@@ -22,161 +22,6 @@
     </item>
     
     <item>
-      <title>⌚ TSNPerf 检测内容及使用表</title>
-      <link>http://localhost:1313/tsnperf/manual/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tsnperf/manual/</guid>
-      <description>&lt;h2 id=&#34;时间同步测试&#34;&gt;时间同步测试&lt;/h2&gt;
-&lt;p&gt;本节将介绍使用TSNPerf测试待测设备时间同步功能的方法。&lt;/p&gt;
-&lt;p&gt;TBD&lt;/p&gt;
-&lt;h2 id=&#34;流量整形测试&#34;&gt;流量整形测试&lt;/h2&gt;
-&lt;p&gt;本节将介绍使用TSNPerf测试待测设备流量整形功能的方法。本章节中的测试参数均为参考配置，使用者可根据实际需求修改参数。&lt;/p&gt;
-&lt;h3 id=&#34;基准测试&#34;&gt;基准测试&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;目的：&lt;strong&gt;测试&lt;/strong&gt;无&lt;/strong&gt;背景流量情况下，高优先级流量经过一跳交换机（待测设备）的端到端延迟、抖动和丢包率。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;方案：&lt;/strong&gt;
-使用如下拓扑，按照配置文档中的介绍发送关键数据包，记录关键数据包的端到端时延、抖动和丢包率。&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./qbv-basictest.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;下面给出TSNPerf程序的参考参数配置：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mode:                   &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tx-mode:                &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;verbose:                &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;use-ziggo-analysis:     &lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pcap-filename:          &lt;span class=&#34;s2&#34;&gt;&amp;#34;/home/i210/launchtimedemo/captured_10w_1500Byte.pcap&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;interface:              &lt;span class=&#34;s2&#34;&gt;&amp;#34;enp1s0&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;smac:                   &lt;span class=&#34;s2&#34;&gt;&amp;#34;00:1b:21:77:ac:ae&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dmac:                   &lt;span class=&#34;s2&#34;&gt;&amp;#34;00:1b:21:76:ae:75&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ethertype:              0xb62c
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;socket-priority:        &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;vlan-priority:          &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;offset:                 &lt;span class=&#34;m&#34;&gt;150000&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;early-offset:           &lt;span class=&#34;m&#34;&gt;300000&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;use-launchtime:         &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;basetime:               1684559640000000100L
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;packet-size:            &lt;span class=&#34;m&#34;&gt;1500&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;packets-to-send:        &lt;span class=&#34;m&#34;&gt;10000&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;interval:               &lt;span class=&#34;m&#34;&gt;1000000&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;use-udp:                &lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sip:                    &lt;span class=&#34;s2&#34;&gt;&amp;#34;192.168.16.10&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dip:                    &lt;span class=&#34;s2&#34;&gt;&amp;#34;192.168.16.11&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sport:                  &lt;span class=&#34;m&#34;&gt;10000&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dport:                  &lt;span class=&#34;m&#34;&gt;10000&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;每一个关键数据包中，从第26个字节开始的8个字节是数据包的发送时间戳，用tcpdump抓取对应的接收时间戳，进而求得每个数据包的端到端时延。统计发送出的10000个数据包，可以得到平均时延和抖动（方差/标准差），以及丢包率。&lt;/p&gt;
-&lt;h3 id=&#34;门控能力&#34;&gt;门控能力&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;目的：&lt;/strong&gt; 测试&lt;strong&gt;有&lt;/strong&gt;背景流量情况下，高优先级流量经过一跳交换机（待测设备）的端到端延迟、抖动和丢包率。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;方案：&lt;/strong&gt; 使用如下拓扑进行测试。从Injector向Recorder发送背景流量，打满网络带宽，同时从Publisher向Recorder发送关键流量，记录关键数据包的端到端时延、抖动和丢包率。&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./qbv-withbackground.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;TSNPerf程序的配置参数可参考上一小节。如果待测设备功能正常，则测试结果应与&lt;strong&gt;基准测试&lt;/strong&gt;中得到的结果一致。&lt;/p&gt;
-&lt;h3 id=&#34;门控精度&#34;&gt;门控精度&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;目的：&lt;/strong&gt; 测试交换机门控的精度，即能否通过预期数量和大小的以太网帧&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;方案：&lt;/strong&gt; 每个周期预留16384ns的门控给关键流量，理论上每个周期可以通过2个1500Byte的以太网帧。&lt;/p&gt;
-&lt;p&gt;下面给出TSNPerf程序的参考参数配置：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mode:                   &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tx-mode:                &lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;verbose:                &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;use-ziggo-analysis:     &lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pcap-filename:          &lt;span class=&#34;s2&#34;&gt;&amp;#34;/home/i210/launchtimedemo/captured_10w_1500Byte.pcap&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;interface:              &lt;span class=&#34;s2&#34;&gt;&amp;#34;enp1s0&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;smac:                   &lt;span class=&#34;s2&#34;&gt;&amp;#34;00:1b:21:77:ac:ae&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dmac:                   &lt;span class=&#34;s2&#34;&gt;&amp;#34;00:1b:21:76:ae:75&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ethertype:              0xb62c
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;socket-priority:        &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;vlan-priority:          &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;offset:                 &lt;span class=&#34;m&#34;&gt;150000&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;early-offset:           &lt;span class=&#34;m&#34;&gt;300000&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;use-launchtime:         &lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;basetime:               1684559640000000100L
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;packet-size:            &lt;span class=&#34;m&#34;&gt;1500&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;packets-to-send:        &lt;span class=&#34;m&#34;&gt;100000&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;interval:               &lt;span class=&#34;m&#34;&gt;1000000&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;use-udp:                &lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sip:                    &lt;span class=&#34;s2&#34;&gt;&amp;#34;192.168.16.10&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dip:                    &lt;span class=&#34;s2&#34;&gt;&amp;#34;192.168.16.11&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sport:                  &lt;span class=&#34;m&#34;&gt;10000&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dport:                  &lt;span class=&#34;m&#34;&gt;10000&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Publisher向Recorder打满关键流量，Recorder处统计接收到的关键数据包的时间戳。预期每个周期（1毫秒）可以接收到两个关键数据包。&lt;/p&gt;
-&lt;h3 id=&#34;带宽保障&#34;&gt;带宽保障&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;目的：&lt;/strong&gt; 测试待测交换机是否可以为关键流量预留固定的带宽&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;方案：&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;配置待测交换机的门控，为关键数据预留25%、50%、75%的带宽。&lt;/li&gt;
-&lt;li&gt;从Injector处向Recorder打满背景流量。&lt;/li&gt;
-&lt;li&gt;用TSNPerf，从Publisher向Recorder发送关键流量，配置参数可参考上一小节。&lt;/li&gt;
-&lt;li&gt;Recorder处用tcpdump/wireshark记录带宽使用情况。以千兆带宽为例，预期关键数据会分别占用 250Mbps、500Mbps、750Mbps 的带宽。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;视频流量测试&#34;&gt;视频流量测试&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;目的：&lt;/strong&gt; 测试以太网帧大小不同的视频流量经过一跳交换机的端延迟、抖动和丢包率&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;方案：&lt;/strong&gt; 测试拓扑参考&lt;strong&gt;基准测试&lt;/strong&gt;章节。准备好一个视频流量的pcap文件&lt;code&gt;H264.pcap&lt;/code&gt;，TSNPerf程序的参数配置如下：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mode:                   &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tx-mode:                &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;verbose:                &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;use-ziggo-analysis:     &lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pcap-filename:          &lt;span class=&#34;s2&#34;&gt;&amp;#34;/home/i210/launchtimedemo/H264.pcap&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;interface:              &lt;span class=&#34;s2&#34;&gt;&amp;#34;enp1s0&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;smac:                   &lt;span class=&#34;s2&#34;&gt;&amp;#34;00:1b:21:77:ac:ae&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dmac:                   &lt;span class=&#34;s2&#34;&gt;&amp;#34;00:1b:21:76:ae:75&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ethertype:              0xb62c
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;socket-priority:        &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;vlan-priority:          &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;offset:                 &lt;span class=&#34;m&#34;&gt;150000&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;early-offset:           &lt;span class=&#34;m&#34;&gt;300000&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;use-launchtime:         &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;basetime:               1684559640000000100L
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;packet-size:            &lt;span class=&#34;m&#34;&gt;1500&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;packets-to-send:        &lt;span class=&#34;m&#34;&gt;10000&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;interval:               &lt;span class=&#34;m&#34;&gt;1000000&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;use-udp:                &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sip:                    &lt;span class=&#34;s2&#34;&gt;&amp;#34;192.168.16.10&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dip:                    &lt;span class=&#34;s2&#34;&gt;&amp;#34;192.168.16.11&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sport:                  &lt;span class=&#34;m&#34;&gt;10000&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dport:                  &lt;span class=&#34;m&#34;&gt;10000&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果待测交换机是存储转发（store-and-forward）模式的，则预期每个数据包的端到端时延会因包的大小而有所不同。如果待测交换机是直通转发（cut-through）模式的，则预期数据包的端到端时延抖动是很小的。&lt;/p&gt;
-&lt;h2 id=&#34;网络配置测试&#34;&gt;网络配置测试&lt;/h2&gt;
-&lt;p&gt;本节将介绍使用TSNPerf测试待测设备网络配置功能的方法。&lt;/p&gt;
-&lt;p&gt;TBD&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>💦 互联互通测试TestBed搭建流程</title>
       <link>http://localhost:1313/device/testbed/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
@@ -1091,9 +936,9 @@ Device1每次发送1个1500B的数据包，每个Switch都预留了1个时隙，
     
     <item>
       <title>💦 Software:Time Sync &#43; Config for CaaS Switches</title>
-      <link>http://localhost:1313/switch/software_build/</link>
+      <link>http://localhost:1313/switch/software-build/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/switch/software_build/</guid>
+      <guid>http://localhost:1313/switch/software-build/</guid>
       <description>&lt;p&gt;This repo contains source code to enable CaaS Switches&amp;rsquo; time synchronization logic and set up TSN GCL (gate control list), switch forwarding rules (including to dual-DMA).&lt;/p&gt;
 &lt;h2 id=&#34;build&#34;&gt;Build&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir build
@@ -1426,9 +1271,9 @@ Device1每次发送1个1500B的数据包，每个Switch都预留了1个时隙，
     
     <item>
       <title>🔨 System Design —— PL &amp; PS Co-operate</title>
-      <link>http://localhost:1313/switch/system_design/</link>
+      <link>http://localhost:1313/switch/system-design/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/switch/system_design/</guid>
+      <guid>http://localhost:1313/switch/system-design/</guid>
       <description>&lt;p&gt;The CaaS/TSN Switch is developed based on the ZYNQ platform. The diagram below shows the composition of the ZYNQ chip. ZYNQ mainly consists of a Processing System (PS) and Programmable Logic (PL). The PS and PL mainly communicate with each other through the high-performance Advanced eXtensible Interface (AXI), which is more efficient than using FPGA directly as a peripheral. The PS contains an ARM-based processor suitable for running applications, drivers, and operating systems, while the PL contains FPGA suitable for running low-level hardware logic with high real-time performance requirements.&lt;/p&gt;
 &lt;p&gt;
 

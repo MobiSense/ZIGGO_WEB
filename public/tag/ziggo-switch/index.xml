@@ -312,9 +312,9 @@ Device1每次发送1个1500B的数据包，每个Switch都预留了1个时隙，
     
     <item>
       <title>💦 Software:Time Sync &#43; Config for CaaS Switches</title>
-      <link>http://localhost:1313/switch/software_build/</link>
+      <link>http://localhost:1313/switch/software-build/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/switch/software_build/</guid>
+      <guid>http://localhost:1313/switch/software-build/</guid>
       <description>&lt;p&gt;This repo contains source code to enable CaaS Switches&amp;rsquo; time synchronization logic and set up TSN GCL (gate control list), switch forwarding rules (including to dual-DMA).&lt;/p&gt;
 &lt;h2 id=&#34;build&#34;&gt;Build&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir build
@@ -647,9 +647,9 @@ Device1每次发送1个1500B的数据包，每个Switch都预留了1个时隙，
     
     <item>
       <title>🔨 System Design —— PL &amp; PS Co-operate</title>
-      <link>http://localhost:1313/switch/system_design/</link>
+      <link>http://localhost:1313/switch/system-design/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/switch/system_design/</guid>
+      <guid>http://localhost:1313/switch/system-design/</guid>
       <description>&lt;p&gt;The CaaS/TSN Switch is developed based on the ZYNQ platform. The diagram below shows the composition of the ZYNQ chip. ZYNQ mainly consists of a Processing System (PS) and Programmable Logic (PL). The PS and PL mainly communicate with each other through the high-performance Advanced eXtensible Interface (AXI), which is more efficient than using FPGA directly as a peripheral. The PS contains an ARM-based processor suitable for running applications, drivers, and operating systems, while the PL contains FPGA suitable for running low-level hardware logic with high real-time performance requirements.&lt;/p&gt;
 &lt;p&gt;
 
