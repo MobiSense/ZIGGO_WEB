@@ -4,32 +4,32 @@
 
 main:
   - name: Home
-    url: /#top
+    url: http://tns.thss.tsinghua.edu.cn/ziggo/
     weight: 10
-  - name: Features
-    url: /#features
-    weight: 20
-  - name: Products
-    url: /#products
-    weight: 30
-  - name: Contact
-    url: /#contact
-    weight: 40
-  - name: Publication
-    url: /#publication
-    weight: 45
-  - parent: Tutorial
-    name: Device
-    url: device/
-    weight: 50
-  - parent: Tutorial
-    name: Switch
-    url: switch/
-    weight: 20
-  - parent: Tutorial
-    name: TSNPerf
+  - name: TSNPerf
     url: tsnperf/
-    weight: 10
+    weight: 20
+  - name: Switch
+    url: switch/
+    weight: 30
+  - name: Device
+    url: device/
+    weight: 40
+  # - name: Publications
+  #   url: /#publication
+  #   weight: 45
+  # - parent: Tutorial
+  #   name: Device
+  #   url: device/
+  #   weight: 50
+  # - parent: Tutorial
+  #   name: Switch
+  #   url: switch/
+  #   weight: 20
+  # - parent: Tutorial
+  #   name: TSNPerf
+  #   url: tsnperf/
+  #   weight: 10
 
     # name: 
   # - name: Contact

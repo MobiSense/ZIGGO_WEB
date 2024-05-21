@@ -3,6 +3,7 @@ title: 'Home'
 date: 2023-10-24
 type: landing
 
+
 design:
   # Default section spacing
   spacing: "6rem"
@@ -12,7 +13,7 @@ sections:
     content:
       title: ZIGGO TSN Platform
       #text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
-      text: A flexible, standard-compliant, and control-function-virtualized TSN switch platform ready for industrial control, automotive electronics, and other time-sensitive applications.
+      text: <b>A flexible, standard-compliant, and control-function-virtualized TSN switch platform ready for industrial control, automotive electronics, and other time-sensitive applications.</b>
       primary_action:
         text: Github
         url: https://github.com/MobiSense/ZIGGO_WEB/
@@ -35,9 +36,9 @@ sections:
         color: "navy"
         image:
           # Add your image background to `assets/media/`.
-          filename: bg.jpg
+          filename: bg-triangles-backup.svg
           filters:
-            brightness: 0.5
+            brightness: 0.99
   # - block: stats
   #   content:
   #     items:
@@ -87,7 +88,7 @@ sections:
     id: products
     content:
       items:
-        - title: <a href="/tsnperf/"> ZIGGO TSNPerf </a>
+        - title: <a href="/ZIGGO_WEB/tsnperf/"> ZIGGO TSNPerf </a>
           text: ZIGGO provides protocol compliance and performance evaluation
           feature_icon: check
           features:
@@ -99,7 +100,7 @@ sections:
           button:
             text: Github
             url: https://github.com/Horacehxw/Ziggo-TSNPerf
-        - title: <a href="/switch/"> ZIGGO Switch </a>
+        - title: <a href="/ZIGGO_WEB/switch/"> ZIGGO Switch </a>
           text: ZIGGO presents a hardware-software co-designed TSN switch
           feature_icon: bolt
           features:
@@ -111,7 +112,7 @@ sections:
           button:
             text: Github
             url: https://github.com/Horacehxw/Ziggo-Switch
-        - title: <a href="/device/"> ZIGGO Device </a>
+        - title: <a href="/ZIGGO_WEB/device/"> ZIGGO Device </a>
           text: ZIGGO presents a hardware-software co-designed TSN device
           feature_icon: bolt
           features:
@@ -170,27 +171,27 @@ sections:
         <ol style="width:160%; text-align:justify;list-style-type:decimal;">
           <li>Zeyu Wang*, Xiaowu He*, Xiangwen Zhuge, Shen Xu, Fan Dang, Jingao Xu and Zheng Yang
             <b>"Enabling Network Diagnostics in Time-Sensitive Networking:Protocol, Algorithm, and Hardware"</b>, IEEE <b>IWQoS</b>, 2024.
-            <a href="/pdf/TSNCard.pdf" target="_blank">[PDF]</a>
+            <a href="/ZIGGO_WEB/pdf/TSNCard.pdf" target="_blank">[PDF]</a>
           </li>
           <li>Xiangwen Zhuge, Xinjun Cai, Xiaowu He, Zeyu Wang, Fan Dang, Wang Xu and Zheng Yang
             <b>"InNetScheduler:In-network scheduling for time- and event-triggered critical traffic in TSN"</b>, IEEE <b>INFOCOM</b>, 2024.
-            <a href="/pdf/InNetScheduler.pdf" target="_blank">[PDF]</a>
+            <a href="/ZIGGO_WEB/pdf/InNetScheduler.pdf" target="_blank">[PDF]</a>
           </li>
           <li>Zeyu Wang, Jingao Xu, Xu Wang, Xiangwen Zhuge, Xiaowu He, Zheng Yang
             <b>"Industrial Knee-jerk:In-Network Simultaneous Planning and Control on a TSN Switch"</b>, ACM <b>MobiSys</b>, 2023.
-            <a href="/pdf/industrial-knee-jerk.pdf" target="_blank">[PDF]</a>
+            <a href="/ZIGGO_WEB/pdf/industrial-knee-jerk.pdf" target="_blank">[PDF]</a>
           </li>
           <li>Zheng Yang, Yi Zhao, Fan Dang, Xiaowu He, Jiahang Wu, Hao Cao, Zeyu Wang, Yunhao Liu
             <b>"CaaS:Enabling Control-as-a-Service for Time-Sensitive Networking"</b>, IEEE <b>INFOCOM</b>, 2023.
-            <a href="/pdf/caas.pdf" target="_blank">[PDF]</a>
+            <a href="/ZIGGO_WEB/pdf/caas.pdf" target="_blank">[PDF]</a>
           </li>
           <li>Xiaowu He, Xiangwen Zhuge, Fan Dang, Wang Xu, Zheng Yang
             <b>"DeepScheduler:Enabling Flow-Aware Scheduling in Time-Sensitive Networking"</b>, IEEE <b>INFOCOM</b>, 2023.
-            <a href="/pdf/deepscheduler.pdf" target="_blank">[PDF]</a>
+            <a href="/ZIGGO_WEB/pdf/deepscheduler.pdf" target="_blank">[PDF]</a>
           </li>
           <li>Yi Zhao, Zheng Yang, Xiaowu He, Jiahang Wu, Hao Cao, Liang Dong, Fan Dang, Yunhao Liu
             <b>"E-TSN:Enabling Event-triggered Critical Traffic in Time-Sensitive Networking for Industrial Applications"</b>, IEEE <b>ICDCS</b>, 2022.
-            <a href="/pdf/e-tsn.pdf" target="_blank">[PDF]</a>
+            <a href="/ZIGGO_WEB/pdf/e-tsn.pdf" target="_blank">[PDF]</a>
           </li>
         </ol>
 

@@ -39,7 +39,7 @@ The overall design of the time synchronization module is shown in the diagram be
 
 After the data frame enters the PL from the input port of the switch, the timestamp cache module will record and cache the timestamp when the data frame enters the hardware. The switch's exchange module will determine whether the data frame is related to time synchronization. Time synchronization data frames will be forwarded from the PL to the PS for processing through the Direct Memory Access (DMA) channel. In the PS, the time synchronization state machine module needs to obtain the real-time clock information of the underlying PL and the hardware timestamps corresponding to different data frames through the AXI4-Lite interface. When the switch needs to send time synchronization-related data frames, the PS is responsible for encapsulating the sent data frames and then forwarding them to the PL for processing through the DMA channel. Since time synchronization also needs to record the sending time of messages such as Sync and Pdelay_Req, the timestamp cache module will still cache the sending timestamp before the data frame is sent from the output port, so that the PS can use it later.
 
-### Switch Fabric & Gate Control
+## Switch Fabric & Gate Control
 
 The overall design of the switch fabric and gate control module is shown in the diagram below. The PS part mainly includes a configuration module, which is used for software-level configuration of the switch's Gate Control List (GCL) and MAC forwarding table; the PL part mainly consists of the switch fabric and the gate control module, which are responsible for port forwarding and real-time control of traffic.
 
